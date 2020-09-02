@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [SEI Automation Project]">
+  <parameter name="mobiledevice" value="true"/>
+  <listeners>
+    <listener class-name="utils.TestsListenerAdapter"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="SEI Smoke Suite(failed)">
+    <parameter name="mobiledevice" value="true"/>
+    <classes>
+      <class name="runner.RunCuke">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="writeExtentReport"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="devicePreCheck"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- runner.RunCuke -->
+    </classes>
+  </test> <!-- SEI Smoke Suite(failed) -->
+</suite> <!-- Failed suite [SEI Automation Project] -->

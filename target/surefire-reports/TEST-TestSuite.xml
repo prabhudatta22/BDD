@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1,057.965" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Java\jdk-8.0.222.10-hotspot\jre\bin"/>
+    <property name="java.vm.version" value="25.222-b10"/>
+    <property name="java.vm.vendor" value=""/>
+    <property name="maven.multiModuleProjectDirectory" value="H:\SEI"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="H:\SEI"/>
+    <property name="java.runtime.version" value="1.8.0_222-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Java\jdk-8.0.222.10-hotspot\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\PAAVULA\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5323606602145351347.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Java\jdk-8.0.222.10-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_231//bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_231//bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_231//bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_231\\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Citrix\System32\;C:\Program Files\Citrix\ICAService\;C:\Program Files (x86)\Webex\Webex\Applications;C:\Program Files\Git\cmd;C:\Tools\apache-maven-3.6.1\bin;C:\Program Files\nodejs\;H:\CTXFolders\Apps\Google\Chrome;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.8.0_231\;C:\Users\PAAVULA\AppData\Local\Microsoft\WindowsApps;C:\Users\PAAVULA\AppData\Roaming\npm;C:\Program Files (x86)\Google\Chrome;H:\CTXFolders\Apps\Google\Chrome;;C:\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\PAAVULA"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="PAAVULA"/>
+    <property name="java.class.path" value="C:\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.12.0.20190628-1133\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Java\jdk-8.0.222.10-hotspot\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_222"/>
+    <property name="java.ext.dirs" value="C:\Java\jdk-8.0.222.10-hotspot\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Java\jdk-8.0.222.10-hotspot\jre\lib\resources.jar;C:\Java\jdk-8.0.222.10-hotspot\jre\lib\rt.jar;C:\Java\jdk-8.0.222.10-hotspot\jre\lib\sunrsasign.jar;C:\Java\jdk-8.0.222.10-hotspot\jre\lib\jsse.jar;C:\Java\jdk-8.0.222.10-hotspot\jre\lib\jce.jar;C:\Java\jdk-8.0.222.10-hotspot\jre\lib\charsets.jar;C:\Java\jdk-8.0.222.10-hotspot\jre\lib\jfr.jar;C:\Java\jdk-8.0.222.10-hotspot\jre\classes"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="maven.home" value="H:\SEI\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="feature" classname="runner.RunCuke" time="1,051.04">
+    <failure message="Multiple failures (16):nnFailure 1 of 16:njava.lang.AssertionError: Title didn&apos;t match expected [true] but found [false]&#10;	at org.testng.Assert.fail(Assert.java:94)&#10;	at org.testng.Assert.failNotEquals(Assert.java:494)&#10;	at org.testng.Assert.assertEquals(Assert.java:123)&#10;	at org.testng.Assert.assertEquals(Assert.java:286)&#10;	at steps.FormsSteps.i_should_see_navigate_to_the_thank_page(FormsSteps.java:71)&#10;	at ✽.Then User should navigate to &quot;Thank You&quot; Thank you page(src/test/resources/features/Forms.feature:18)&#10;nnFailure 2 of 16:njava.lang.AssertionError: Title didn&apos;t match expected [true] but found [false]&#10;	at org.testng.Assert.fail(Assert.java:94)&#10;	at org.testng.Assert.failNotEquals(Assert.java:494)&#10;	at org.testng.Assert.assertEquals(Assert.java:123)&#10;	at org.testng.Assert.assertEquals(Assert.java:286)&#10;	at steps.FormsSteps.i_should_see_navigate_to_the_thank_page(FormsSteps.java:71)&#10;	at ✽.Then User should navigate to &quot;Thank You&quot; Thank you page(src/test/resources/features/Forms.feature:31)&#10;nnFailure 3 of 16:njava.lang.AssertionError: Title didn&apos;t match expected [true] but found [false]&#10;	at org.testng.Assert.fail(Assert.java:94)&#10;	at org.testng.Assert.failNotEquals(Assert.java:494)&#10;	at org.testng.Assert.assertEquals(Assert.java:123)&#10;	at org.testng.Assert.assertEquals(Assert.java:286)&#10;	at steps.FormsSteps.i_should_see_navigate_to_the_thank_page(FormsSteps.java:71)&#10;	at ✽.Then User should navigate to &quot;Thank You&quot; Thank you page(src/test/resources/features/Forms.feature:44)&#10;nnFailure 4 of 16:njava.lang.AssertionError: Title didn&apos;t match expected [true] but found [false]&#10;	at org.testng.Assert.fail(Assert.java:94)&#10;	at org.testng.Assert.failNotEquals(Assert.java:494)&#10;	at org.testng.Assert.assertEquals(Assert.java:123)&#10;	at org.testng.Assert.assertEquals(Assert.java:286)&#10;	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)&#10;	at ✽.Then User should see the &quot;Thank you page - RFI &quot; text on page(src/test/resources/features/Forms.feature:57)&#10;nnFailure 5 of 16:njava.lang.AssertionError: Title didn&apos;t match expected [true] but found [false]&#10;	at org.testng.Assert.fail(Assert.java:94)&#10;	at org.testng.Assert.failNotEquals(Assert.java:494)&#10;	at org.testng.Assert.assertEquals(Assert.java:123)&#10;	at org.testng.Assert.assertEquals(Assert.java:286)&#10;	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)&#10;	at ✽.Then User should see the &quot;Thank you page - RFI | Digital Entrepreneurship MBA&quot; text on page(src/test/resources/features/Forms.feature:70)&#10;nnFailure 6 of 16:njava.lang.AssertionError: Title didn&apos;t match expected [true] but found [false]&#10;	at org.testng.Assert.fail(Assert.java:94)&#10;	at org.testng.Assert.failNotEquals(Assert.java:494)&#10;	at org.testng.Assert.assertEquals(Assert.java:123)&#10;	at org.testng.Assert.assertEquals(Assert.java:286)&#10;	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)&#10;	at ✽.Then User should see the &quot;Thank you page - RFI | Digital Entrepreneurship MBA&quot; text on page(src/test/resources/features/Forms.feature:83)&#10;nnFailure 7 of 16:njava.lang.AssertionError: Title didn&apos;t match expected [true] but found [false]&#10;	at org.testng.Assert.fail(Assert.java:94)&#10;	at org.testng.Assert.failNotEquals(Assert.java:494)&#10;	at org.testng.Assert.assertEquals(Assert.java:123)&#10;	at org.testng.Assert.assertEquals(Assert.java:286)&#10;	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)&#10;	at ✽.Then User should see the &quot;Thank you page - RFI &quot; text on page(src/test/resources/features/Forms.feature:96)&#10;nnFailure 8 of 16:njava.lang.AssertionError: Title didn&apos;t match expected [true] but found [false]&#10;	at org.testng.Assert.fail(Assert.java:94)&#10;	at org.testng.Assert.failNotEquals(Assert.java:494)&#10;	at org.testng.Assert.assertEquals(Assert.java:123)&#10;	at org.testng.Assert.assertEquals(Assert.java:286)&#10;	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)&#10;	at ✽.Then User should see the &quot;Strayer University :: Thank You&quot; text on page(src/test/resources/features/Forms.feature:109)&#10;nnFailure 9 of 16:njava.lang.AssertionError: Title didn&apos;t match expected [true] but found [false]&#10;	at org.testng.Assert.fail(Assert.java:94)&#10;	at org.testng.Assert.failNotEquals(Assert.java:494)&#10;	at org.testng.Assert.assertEquals(Assert.java:123)&#10;	at org.testng.Assert.assertEquals(Assert.java:286)&#10;	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)&#10;	at ✽.Then User should see the &quot;Strayer University :: Thank You&quot; text on page(src/test/resources/features/Forms.feature:122)&#10;nnFailure 10 of 16:njava.lang.AssertionError: Title didn&apos;t match expected [true] but found [false]&#10;	at org.testng.Assert.fail(Assert.java:94)&#10;	at org.testng.Assert.failNotEquals(Assert.java:494)&#10;	at org.testng.Assert.assertEquals(Assert.java:123)&#10;	at org.testng.Assert.assertEquals(Assert.java:286)&#10;	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)&#10;	at ✽.Then User should see the &quot;Strayer University :: Thank You&quot; text on page(src/test/resources/features/Forms.feature:135)&#10;nnFailure 11 of 16:njava.lang.AssertionError: Title didn&apos;t match expected [true] but found [false]&#10;	at org.testng.Assert.fail(Assert.java:94)&#10;	at org.testng.Assert.failNotEquals(Assert.java:494)&#10;	at org.testng.Assert.assertEquals(Assert.java:123)&#10;	at org.testng.Assert.assertEquals(Assert.java:286)&#10;	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)&#10;	at ✽.Then User should see the &quot;Strayer University : Thank You&quot; text on page(src/test/resources/features/Forms.feature:150)&#10;nnFailure 12 of 16:njava.lang.AssertionError: Title didn&apos;t match expected [true] but found [false]&#10;	at org.testng.Assert.fail(Assert.java:94)&#10;	at org.testng.Assert.failNotEquals(Assert.java:494)&#10;	at org.testng.Assert.assertEquals(Assert.java:123)&#10;	at org.testng.Assert.assertEquals(Assert.java:286)&#10;	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)&#10;	at ✽.And User should see the &quot;Strayer University :: Thank You&quot; text on page(src/test/resources/features/Forms.feature:184)&#10;nnFailure 13 of 16:njava.lang.AssertionError: Title didn&apos;t match expected [true] but found [false]&#10;	at org.testng.Assert.fail(Assert.java:94)&#10;	at org.testng.Assert.failNotEquals(Assert.java:494)&#10;	at org.testng.Assert.assertEquals(Assert.java:123)&#10;	at org.testng.Assert.assertEquals(Assert.java:286)&#10;	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)&#10;	at ✽.Then User should see the &quot;Thank you page - RFI | Digital Entrepreneurship MBA&quot; text on page(src/test/resources/features/Forms.feature:198)&#10;nnFailure 14 of 16:njava.lang.AssertionError: Title didn&apos;t match expected [true] but found [false]&#10;	at org.testng.Assert.fail(Assert.java:94)&#10;	at org.testng.Assert.failNotEquals(Assert.java:494)&#10;	at org.testng.Assert.assertEquals(Assert.java:123)&#10;	at org.testng.Assert.assertEquals(Assert.java:286)&#10;	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)&#10;	at ✽.Then User should see the &quot;Thank you page - RFI &quot; text on page(src/test/resources/features/Forms.feature:212)&#10;nnFailure 15 of 16:njava.lang.AssertionError: Title didn&apos;t match expected [true] but found [false]&#10;	at org.testng.Assert.fail(Assert.java:94)&#10;	at org.testng.Assert.failNotEquals(Assert.java:494)&#10;	at org.testng.Assert.assertEquals(Assert.java:123)&#10;	at org.testng.Assert.assertEquals(Assert.java:286)&#10;	at steps.FormsSteps.i_should_see_the_something_text_on_my_capella_dashboard(FormsSteps.java:1044)&#10;	at ✽.Then User should see the &quot;MY PROFILE&quot; text on My Capella Dashboard(src/test/resources/features/Forms.feature:300)&#10;nnFailure 16 of 16:ncucumber.runtime.CucumberException: java.lang.AssertionError: Title didn&apos;t match expected [true] but found [false]" type="java.lang.Throwable">java.lang.Throwable: 
+Multiple failures (16):nnFailure 1 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FormsSteps.i_should_see_navigate_to_the_thank_page(FormsSteps.java:71)
+	at ✽.Then User should navigate to "Thank You" Thank you page(src/test/resources/features/Forms.feature:18)
+nnFailure 2 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FormsSteps.i_should_see_navigate_to_the_thank_page(FormsSteps.java:71)
+	at ✽.Then User should navigate to "Thank You" Thank you page(src/test/resources/features/Forms.feature:31)
+nnFailure 3 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FormsSteps.i_should_see_navigate_to_the_thank_page(FormsSteps.java:71)
+	at ✽.Then User should navigate to "Thank You" Thank you page(src/test/resources/features/Forms.feature:44)
+nnFailure 4 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+	at ✽.Then User should see the "Thank you page - RFI " text on page(src/test/resources/features/Forms.feature:57)
+nnFailure 5 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+	at ✽.Then User should see the "Thank you page - RFI | Digital Entrepreneurship MBA" text on page(src/test/resources/features/Forms.feature:70)
+nnFailure 6 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+	at ✽.Then User should see the "Thank you page - RFI | Digital Entrepreneurship MBA" text on page(src/test/resources/features/Forms.feature:83)
+nnFailure 7 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+	at ✽.Then User should see the "Thank you page - RFI " text on page(src/test/resources/features/Forms.feature:96)
+nnFailure 8 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+	at ✽.Then User should see the "Strayer University :: Thank You" text on page(src/test/resources/features/Forms.feature:109)
+nnFailure 9 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+	at ✽.Then User should see the "Strayer University :: Thank You" text on page(src/test/resources/features/Forms.feature:122)
+nnFailure 10 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+	at ✽.Then User should see the "Strayer University :: Thank You" text on page(src/test/resources/features/Forms.feature:135)
+nnFailure 11 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+	at ✽.Then User should see the "Strayer University : Thank You" text on page(src/test/resources/features/Forms.feature:150)
+nnFailure 12 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+	at ✽.And User should see the "Strayer University :: Thank You" text on page(src/test/resources/features/Forms.feature:184)
+nnFailure 13 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+	at ✽.Then User should see the "Thank you page - RFI | Digital Entrepreneurship MBA" text on page(src/test/resources/features/Forms.feature:198)
+nnFailure 14 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+	at ✽.Then User should see the "Thank you page - RFI " text on page(src/test/resources/features/Forms.feature:212)
+nnFailure 15 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FormsSteps.i_should_see_the_something_text_on_my_capella_dashboard(FormsSteps.java:1044)
+	at ✽.Then User should see the "MY PROFILE" text on My Capella Dashboard(src/test/resources/features/Forms.feature:300)
+nnFailure 16 of 16:ncucumber.runtime.CucumberException: java.lang.AssertionError: Title didn't match expected [true] but found [false]
+</failure>
+    <system-out><![CDATA[Device status is :true
+Device status before updating...false
+Feature: Console Errors in PMLP Pages in QA
+checking the device status...true
+Browser:ChromeDriver: chrome on XP (6e60649a60060183105f12d182126f8c)
+Current URL :https://stgwww2.strayer.edu/content/strayer/en/tuition-aid/pep/pep_results
+200
+200
+Thank You
+personalized-education-plan-results
+*************addVerificationFailure******************
+*************getVerificationFailures******************
+Scenario: TC020: Verify User is able to submit PEP  form: FAIL
+checking the device status...true
+Browser:ChromeDriver: chrome on XP (c7ab867c000da0de41e863ac58b13018)
+
+  @PEPRFI @Forms @SUEDU
+  Scenario: TC020: Verify User is able to submit PEP  form                  # src/test/resources/features/Forms.feature:4
+    Given User Navigate to PEP Form Page                                    # FormsSteps.user_navigate_to_pep_form_page()
+    When User select "Business" as AOS in PEP form                          # FormsSteps.iSelectSomethingAsAOSInPEPForm(String)
+    And User select "Associate" as Degree in PEP form                       # FormsSteps.iSelectSomethingAsDegreeInPEPForm(String)
+    And User select "Associate in Arts in Marketing" as Program in PEP form # FormsSteps.iSelectSomethingAsProgramInPEPForm(String)
+    When User Fill PEP Form Data                                            # FormsSteps.user_fill_PEP_Form()
+    When User move to PEP RFI                                               # FormsSteps.i_move_to_pep_rfi()
+    When User enter "PEP" as FirstName in PEP  Form                         # FormsSteps.i_enter_something_as_firstname_in_pep_form(String)
+    And User enter "Form" as LastName in PEP Form                           # FormsSteps.i_enter_something_as_lastname_in_pep_form(String)
+    And User enter "pepform@cunet.com" as Email in PEP Form                 # FormsSteps.i_enter_something_as_email_in_pep_form(String)
+    And User enter "1232344567" as PhoneNumber in PEP Form                  # FormsSteps.i_enter_something_as_phonenumber_in_pep_form(String)
+    And User enter "55111" as Zip in PEP Form                               # FormsSteps.i_enter_something_as_zip_in_pep_form(String)
+    When User click "AgreeandGo" button in PEP Form                         # FormsSteps.i_click_something_button_inpep_form(String)
+    Then User should see the "200" Success Response Status code             # FormsSteps.i_should_see_the_200_code_in_page(int)
+    Then User should navigate to "Thank You" Thank you page                 # FormsSteps.i_should_see_navigate_to_the_thank_page(String)
+      java.lang.AssertionError: Title didn't match expected [true] but found [false]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:494)
+      	at org.testng.Assert.assertEquals(Assert.java:123)
+      	at org.testng.Assert.assertEquals(Assert.java:286)
+      	at steps.FormsSteps.i_should_see_navigate_to_the_thank_page(FormsSteps.java:71)
+      	at ?.Then User should navigate to "Thank You" Thank you page(src/test/resources/features/Forms.feature:18)
+
+Current URL :https://stgwww2.strayer.edu/online-degrees/bachelors/business-administration/accounting
+200
+200
+Thank You
+Bachelor's in Accounting Online | Strayer University
+*************addVerificationFailure******************
+*************getVerificationFailures******************
+Scenario: TC001: Verify User is able to submit Banner form: FAIL
+checking the device status...true
+Browser:ChromeDriver: chrome on XP (0595a4f0f27b18aea0186f667851a1ef)
+
+  @BannerRFI @SUEDU @Forms
+  Scenario: TC001: Verify User is able to submit Banner form      # src/test/resources/features/Forms.feature:21
+    Given User Navigate to EDU Banner Forms Page                  # FormsSteps.user_Navigate_to_Edu_Banner_forms_Page()
+    When User move to BannerRFI                                   # FormsSteps.i_move_to_BannerRFI()
+    And User enter "Banner" as FirstName in Banner form           # FormsSteps.i_enter_as_FirstName_in_Bform(String)
+    And User enter "Form" as LastName in Banner form              # FormsSteps.i_enter_as_LastName_in_Bform(String)
+    And User enter "Bannerform@cunet.com" as Email in Banner form # FormsSteps.i_enter_as_Email_in_Bform(String)
+    And User enter "1232377767" as PhoneNumber in Banner form     # FormsSteps.i_enter_as_PhoneNumber_in_Bform(String)
+    And User enter "55111" as Zip in Banner form                  # FormsSteps.i_enter_as_Zip_in_Bform(String)
+    When User click "AgreeandGo" button in Banner form            # FormsSteps.i_click_button_in_Bform(String)
+    Then User should see the "200" Success Response Status code   # FormsSteps.i_should_see_the_200_code_in_page(int)
+    Then User should navigate to "Thank You" Thank you page       # FormsSteps.i_should_see_navigate_to_the_thank_page(String)
+      java.lang.AssertionError: Title didn't match expected [true] but found [false]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:494)
+      	at org.testng.Assert.assertEquals(Assert.java:123)
+      	at org.testng.Assert.assertEquals(Assert.java:286)
+      	at steps.FormsSteps.i_should_see_navigate_to_the_thank_page(FormsSteps.java:71)
+      	at ?.Then User should navigate to "Thank You" Thank you page(src/test/resources/features/Forms.feature:31)
+
+Current URL :https://stgwww2.strayer.edu/online-degrees/masters
+200
+200
+Thank You
+Accredited Master's Degrees Online | Strayer University
+*************addVerificationFailure******************
+*************getVerificationFailures******************
+Scenario: TC002: Verify User is able to submit footer  form: FAIL
+checking the device status...true
+Browser:ChromeDriver: chrome on XP (de5141678450de50153e8e6e1d96e4bd)
+
+  @FooterRFI @SUEDU @Forms
+  Scenario: TC002: Verify User is able to submit footer  form   # src/test/resources/features/Forms.feature:34
+    Given User Navigate to EDU Forms Page                       # FormsSteps.user_Navigate_to_Edu_forms_Page()
+    When User move to footerRFI                                 # FormsSteps.i_move_to_footerRFI()
+    And User enter "Footer" as FirstName in form                # FormsSteps.i_enter_as_FirstName_in_form(String)
+    And User enter "Form" as LastName in form                   # FormsSteps.i_enter_as_LastName_in_form(String)
+    And User enter "footerform@cunet.com" as Email in form      # FormsSteps.i_enter_as_Email_in_form(String)
+    And User enter "1232344567" as PhoneNumber in Footer form   # FormsSteps.i_enter_as_PhoneNumber_in_fotter_form(String)
+    And User enter "55111" as Zip in form                       # FormsSteps.i_enter_as_Zip_in_form(String)
+    When User click "AgreeandGo" button in form                 # FormsSteps.i_click_button_in_form(String)
+    Then User should see the "200" Success Response Status code # FormsSteps.i_should_see_the_200_code_in_page(int)
+    Then User should navigate to "Thank You" Thank you page     # FormsSteps.i_should_see_navigate_to_the_thank_page(String)
+      java.lang.AssertionError: Title didn't match expected [true] but found [false]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:494)
+      	at org.testng.Assert.assertEquals(Assert.java:123)
+      	at org.testng.Assert.assertEquals(Assert.java:286)
+      	at steps.FormsSteps.i_should_see_navigate_to_the_thank_page(FormsSteps.java:71)
+      	at ?.Then User should navigate to "Thank You" Thank you page(src/test/resources/features/Forms.feature:44)
+
+Current URL :https://stgmobile-mba2.strayer.edu/
+200
+200
+*************addVerificationFailure******************
+*************getVerificationFailures******************
+Scenario: TC006: Verify User is able to submit MBA download form: FAIL
+checking the device status...true
+Browser:ChromeDriver: chrome on XP (259e5e20f8a75c3fad165acadc71f5b9)
+
+  @DownloadFormMBA @OMS @Forms
+  Scenario: TC006: Verify User is able to submit MBA download form    # src/test/resources/features/Forms.feature:47
+    Given User Navigate to Mobile Mba Page                            # CheddarPageSteps.user_navigate_to_mmba_page()
+    When User Click on "Download Now" Form link in Cheddar Page       # CheddarPageSteps.i_Click_on_form_link_in_Cheddar_page(String)
+    And User enter "Download" as FirstName in Download form           # FormsSteps.i_enter_something_as_firstname_in_download_form(String)
+    And User enter "Form" as LastName in Download form                # FormsSteps.i_enter_something_as_lastname_in_download_form(String)
+    And User enter "downloadform@cunet.com" as Email in Download form # FormsSteps.i_enter_something_as_email_in_download_form(String)
+    And User enter "1232344567" as PhoneNumber in Download form       # FormsSteps.i_enter_something_as_phonenumber_in_download_form(String)
+    And User enter "55111" as Zip in Download form                    # FormsSteps.i_enter_something_as_zip_in_download_form(String)
+    When User click "Submit" button in Download form                  # FormsSteps.i_click_something_button_in_download_form(String)
+    Then User should see the "200" Response Status code               # FooterSteps.i_should_see_the_200_code(int)
+    Then User should see the "Thank you page - RFI " text on page     # FooterSteps.i_should_see_the_text_on_pages(String)
+      java.lang.AssertionError: Title didn't match expected [true] but found [false]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:494)
+      	at org.testng.Assert.assertEquals(Assert.java:123)
+      	at org.testng.Assert.assertEquals(Assert.java:286)
+      	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+      	at ?.Then User should see the "Thank you page - RFI " text on page(src/test/resources/features/Forms.feature:57)
+
+Current URL :https://stgmbaentrepreneurship2.strayer.edu/
+200
+200
+*************addVerificationFailure******************
+*************getVerificationFailures******************
+Scenario: TC007: Verify User is able to submit Banner with Microsite form: FAIL
+checking the device status...true
+Browser:ChromeDriver: chrome on XP (03c1353591219bf963a54d2674cc676a)
+
+  @MicroSiteForminMBAEntrepreneurship @OMS @Forms
+  Scenario: TC007: Verify User is able to submit Banner with Microsite form                     # src/test/resources/features/Forms.feature:60
+    Given User Navigate to Cheddar Page                                                         # CheddarPageSteps.user_navigate_to_cheddar_page()
+    When User move to MicroSite form                                                            # FormsSteps.i_move_to_microsite_form()
+    And User enter "Cheddar" as FirstName in MicroSite form                                     # FormsSteps.i_enter_something_as_firstname_in_MicroSite_form(String)
+    And User enter "Form" as LastName in MicroSite form                                         # FormsSteps.i_enter_something_as_lastname_in_MicroSite_form(String)
+    And User enter "55111" as Zip in MicroSite form                                             # FormsSteps.i_enter_something_as_zip_in_MicroSite_form(String)
+    And User enter "cheddarform@cunet.com" as Email in MicroSite form                           # FormsSteps.i_enter_something_as_email_in_MicroSite_form(String)
+    And User enter "1232344567" as PhoneNumber in MicroSite form                                # FormsSteps.i_enter_something_as_phonenumber_in_MicroSite_form(String)
+    When User click "Agree and Go" button in MicroSite form                                     # FormsSteps.i_click_something_button_in_microsite_form(String)
+    Then User should see the "200" Response Status code                                         # FooterSteps.i_should_see_the_200_code(int)
+    Then User should see the "Thank you page - RFI | Digital Entrepreneurship MBA" text on page # FooterSteps.i_should_see_the_text_on_pages(String)
+      java.lang.AssertionError: Title didn't match expected [true] but found [false]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:494)
+      	at org.testng.Assert.assertEquals(Assert.java:123)
+      	at org.testng.Assert.assertEquals(Assert.java:286)
+      	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+      	at ?.Then User should see the "Thank you page - RFI | Digital Entrepreneurship MBA" text on page(src/test/resources/features/Forms.feature:70)
+
+Current URL :https://stgmobile-mba2.strayer.edu/
+200
+200
+*************addVerificationFailure******************
+*************getVerificationFailures******************
+Scenario: TC008: Verify User is able to submit Banner with Microsite form in Mobile-Mba Page: FAIL
+checking the device status...true
+Browser:ChromeDriver: chrome on XP (00eff7ed440b92949fae7bd88be490d3)
+
+  @MicroSiteForminMBAPage @OMS @Forms
+  Scenario: TC008: Verify User is able to submit Banner with Microsite form in Mobile-Mba Page  # src/test/resources/features/Forms.feature:73
+    Given User Navigate to Mobile Mba Page                                                      # CheddarPageSteps.user_navigate_to_mmba_page()
+    When User move to MicroSite form                                                            # FormsSteps.i_move_to_microsite_form()
+    And User enter "Mobile" as FirstName in MicroSite form                                      # FormsSteps.i_enter_something_as_firstname_in_MicroSite_form(String)
+    And User enter "MBA" as LastName in MicroSite form                                          # FormsSteps.i_enter_something_as_lastname_in_MicroSite_form(String)
+    And User enter "55111" as Zip in MicroSite form                                             # FormsSteps.i_enter_something_as_zip_in_MicroSite_form(String)
+    And User enter "mobilemba@cunet.com" as Email in MicroSite form                             # FormsSteps.i_enter_something_as_email_in_MicroSite_form(String)
+    And User enter "1232344567" as PhoneNumber in MicroSite form                                # FormsSteps.i_enter_something_as_phonenumber_in_MicroSite_form(String)
+    When User click "Agree and Go" button in MicroSite form                                     # FormsSteps.i_click_something_button_in_microsite_form(String)
+    Then User should see the "200" Response Status code                                         # FooterSteps.i_should_see_the_200_code(int)
+    Then User should see the "Thank you page - RFI | Digital Entrepreneurship MBA" text on page # FooterSteps.i_should_see_the_text_on_pages(String)
+      java.lang.AssertionError: Title didn't match expected [true] but found [false]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:494)
+      	at org.testng.Assert.assertEquals(Assert.java:123)
+      	at org.testng.Assert.assertEquals(Assert.java:286)
+      	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+      	at ?.Then User should see the "Thank you page - RFI | Digital Entrepreneurship MBA" text on page(src/test/resources/features/Forms.feature:83)
+
+Current URL :https://stgmbaentrepreneurship2.strayer.edu/
+200
+200
+*************addVerificationFailure******************
+*************getVerificationFailures******************
+Scenario: TC009: Verify User is able to submit Download form: FAIL
+checking the device status...true
+Browser:ChromeDriver: chrome on XP (9c9738e3552a162a6ec8124865747cbe)
+
+  @DownloadFormCheddar @OMS @Forms
+  Scenario: TC009: Verify User is able to submit Download form        # src/test/resources/features/Forms.feature:86
+    Given User Navigate to Cheddar Page                               # CheddarPageSteps.user_navigate_to_cheddar_page()
+    When User Click on "Download Now" Form link in Cheddar Page       # CheddarPageSteps.i_Click_on_form_link_in_Cheddar_page(String)
+    And User enter "Download" as FirstName in Download form           # FormsSteps.i_enter_something_as_firstname_in_download_form(String)
+    And User enter "Form" as LastName in Download form                # FormsSteps.i_enter_something_as_lastname_in_download_form(String)
+    And User enter "downloadform@cunet.com" as Email in Download form # FormsSteps.i_enter_something_as_email_in_download_form(String)
+    And User enter "1232344567" as PhoneNumber in Download form       # FormsSteps.i_enter_something_as_phonenumber_in_download_form(String)
+    And User enter "55111" as Zip in Download form                    # FormsSteps.i_enter_something_as_zip_in_download_form(String)
+    When User click "Submit" button in Download form                  # FormsSteps.i_click_something_button_in_download_form(String)
+    Then User should see the "200" Response Status code               # FooterSteps.i_should_see_the_200_code(int)
+    Then User should see the "Thank you page - RFI " text on page     # FooterSteps.i_should_see_the_text_on_pages(String)
+      java.lang.AssertionError: Title didn't match expected [true] but found [false]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:494)
+      	at org.testng.Assert.assertEquals(Assert.java:123)
+      	at org.testng.Assert.assertEquals(Assert.java:286)
+      	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+      	at ?.Then User should see the "Thank you page - RFI " text on page(src/test/resources/features/Forms.feature:96)
+
+Current URL :https://stglinkedin2.strayer.edu/mba
+200
+200
+*************addVerificationFailure******************
+*************getVerificationFailures******************
+Scenario: TC011: Verify User is able to submit form in Linked In Home page: FAIL
+checking the device status...true
+Browser:ChromeDriver: chrome on XP (ea4c4f53eb299b959ac3788030a38f13)
+
+  @LinkedInpageMBAForm @SUPMLP @Forms
+  Scenario: TC011: Verify User is able to submit form in Linked In Home page # src/test/resources/features/Forms.feature:99
+    Given User Navigate to LinkedIn Home Page                                # LinkedInPageSteps.user_Navigate_to_linkedIn_Template_Page()
+    When User enter "Linkedin" as FirstName in LinkedIn form                 # FormsSteps.i_enter_as_FirstName_in_LinkedIn_form(String)
+    And User enter "MBA" as LastName in LinkedIn form                        # FormsSteps.i_enter_as_LastName_in_LinkedIn_form(String)
+    And User enter "linkedformmba@cunet.com" as Email in LinkedIn form       # FormsSteps.i_enter_as_Email_in_LinkedIn_form(String)
+    And User enter "1234567890" as PhoneNumber in LinkedIn form              # FormsSteps.i_enter_as_PhoneNumber_in_LinkedIn_form(String)
+    And User enter "55111" as Zip in LinkedIn form                           # FormsSteps.i_enter_as_Zip_in_LinkedIn_form(String)
+    And User Selects "Yes" as TransferCreditInterest Option in LinkedIn form # FormsSteps.i_enter_as_TC_in_LinkedIn_form(String)
+    When User click "Submit" button in LinkedIn form                         # FormsSteps.i_click_button_in_LinkedIn_form(String)
+    Then User should see the "200" Response Status code                      # FooterSteps.i_should_see_the_200_code(int)
+    Then User should see the "Strayer University :: Thank You" text on page  # FooterSteps.i_should_see_the_text_on_pages(String)
+      java.lang.AssertionError: Title didn't match expected [true] but found [false]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:494)
+      	at org.testng.Assert.assertEquals(Assert.java:123)
+      	at org.testng.Assert.assertEquals(Assert.java:286)
+      	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+      	at ?.Then User should see the "Strayer University :: Thank You" text on page(src/test/resources/features/Forms.feature:109)
+
+Current URL :https://stglinkedin2.strayer.edu/bba
+200
+200
+*************addVerificationFailure******************
+*************getVerificationFailures******************
+Scenario: TC012: Verify User is able to submit form in Linked In BBA page: FAIL
+checking the device status...true
+Browser:ChromeDriver: chrome on XP (8d03a1dd85f695dfaf3690f17c85f004)
+
+  @LinkedInpageBBAForm @SUPMLP @Forms
+  Scenario: TC012: Verify User is able to submit form in Linked In BBA page  # src/test/resources/features/Forms.feature:112
+    Given User Navigate to LinkedIn BBA Page                                 # LinkedInPageSteps.user_Navigate_to_linkedIn_BBA_Page()
+    When User enter "Linkedin" as FirstName in LinkedIn form                 # FormsSteps.i_enter_as_FirstName_in_LinkedIn_form(String)
+    And User enter "MBA" as LastName in LinkedIn form                        # FormsSteps.i_enter_as_LastName_in_LinkedIn_form(String)
+    And User enter "linkedformmba@cunet.com" as Email in LinkedIn form       # FormsSteps.i_enter_as_Email_in_LinkedIn_form(String)
+    And User enter "1234567890" as PhoneNumber in LinkedIn form              # FormsSteps.i_enter_as_PhoneNumber_in_LinkedIn_form(String)
+    And User enter "55111" as Zip in LinkedIn form                           # FormsSteps.i_enter_as_Zip_in_LinkedIn_form(String)
+    And User Selects "Yes" as TransferCreditInterest Option in LinkedIn form # FormsSteps.i_enter_as_TC_in_LinkedIn_form(String)
+    When User click "Submit" button in LinkedIn form                         # FormsSteps.i_click_button_in_LinkedIn_form(String)
+    Then User should see the "200" Response Status code                      # FooterSteps.i_should_see_the_200_code(int)
+    Then User should see the "Strayer University :: Thank You" text on page  # FooterSteps.i_should_see_the_text_on_pages(String)
+      java.lang.AssertionError: Title didn't match expected [true] but found [false]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:494)
+      	at org.testng.Assert.assertEquals(Assert.java:123)
+      	at org.testng.Assert.assertEquals(Assert.java:286)
+      	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+      	at ?.Then User should see the "Strayer University :: Thank You" text on page(src/test/resources/features/Forms.feature:122)
+
+Current URL :https://stgsucceed2.strayer.edu/mba
+200
+200
+*************addVerificationFailure******************
+*************getVerificationFailures******************
+Scenario: TC013: Verify User is able to submit Short form: FAIL
+checking the device status...true
+Browser:ChromeDriver: chrome on XP (2ca763b2cf0be6907017dfd3c61bcbb6)
+
+  @ShortForm @SUPMLP @Forms
+  Scenario: TC013: Verify User is able to submit Short form                 # src/test/resources/features/Forms.feature:125
+    Given User move to Short form Page                                      # FormsSteps.i_move_to_Short_Form_Page()
+    And User enter "Deepu" as FirstName in Short form                       # FormsSteps.i_enter_as_FirstName_in_Short_form(String)
+    And User enter "Kumar" as LastName in Short form                        # FormsSteps.i_enter_as_LastName_in_LShort_form(String)
+    And User enter "shortform@cunet.com" as Email in Short form             # FormsSteps.i_enter_as_Email_in_Short_form(String)
+    And User enter "1234567890" as PhoneNumber in Short form                # FormsSteps.i_enter_as_PhoneNumber_in_Short_form(String)
+    And User enter "55111" as Zip in Short form                             # FormsSteps.i_enter_as_Zip_in_Short_form(String)
+    And User Selects "Yes" as TransferCreditInterest Option in Short form   # FormsSteps.i_enter_as_TC_in_Short_form(String)
+    And User click "AgreeandGo" button in Short form                        # FormsSteps.i_click_button_in_Short_form(String)
+    Then User should see the "200" Response Status code                     # FooterSteps.i_should_see_the_200_code(int)
+    Then User should see the "Strayer University :: Thank You" text on page # FooterSteps.i_should_see_the_text_on_pages(String)
+      java.lang.AssertionError: Title didn't match expected [true] but found [false]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:494)
+      	at org.testng.Assert.assertEquals(Assert.java:123)
+      	at org.testng.Assert.assertEquals(Assert.java:286)
+      	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+      	at ?.Then User should see the "Strayer University :: Thank You" text on page(src/test/resources/features/Forms.feature:135)
+
+Current URL :https://stgachieve2.strayer.edu/
+200
+200
+*************addVerificationFailure******************
+*************getVerificationFailures******************
+Scenario: TC014: Verify User is able to submit Short form with drop downs: FAIL
+checking the device status...true
+Browser:ChromeDriver: chrome on XP (3e602e93f6c2ec1a9c4a2db7fa75442f)
+
+  @ShortFormwithDropdown @SUPMLP @Forms
+  Scenario: TC014: Verify User is able to submit Short form with drop downs             # src/test/resources/features/Forms.feature:138
+    Given User move to Short form with drop down Page                                   # FormsSteps.i_move_to_Short_Form_with_dd_Page()
+    When User select "MBA" as Degree in Short form                                      # FormsSteps.i_select_as_Degree_insf_dd_SF_form(String)
+    And User select "Business Administration" as program of interest in Short form      # FormsSteps.as_program_of_interest_in_sf_ddform(String)
+    And User enter "Deepu" as FirstName in Short form                                   # FormsSteps.i_enter_as_FirstName_in_Short_form(String)
+    And User enter "Kumar" as LastName in Short form                                    # FormsSteps.i_enter_as_LastName_in_LShort_form(String)
+    And User enter "shortformdd@cunet.com" as Email in Short form                       # FormsSteps.i_enter_as_Email_in_Short_form(String)
+    And User enter "1234567890" as PhoneNumber in Short form                            # FormsSteps.i_enter_as_PhoneNumber_in_Short_form(String)
+    And User enter "55111" as Zip in Short form                                         # FormsSteps.i_enter_as_Zip_in_Short_form(String)
+    And User Selects "Yes" as TransferCreditInterest Option in Short form with dropdown # FormsSteps.i_enter_as_TC_in_Short_form_dd(String)
+    And User click "AgreeandGo" button in Short form                                    # FormsSteps.i_click_button_in_Short_form(String)
+    Then User should see the "200" Response Status code                                 # FooterSteps.i_should_see_the_200_code(int)
+    Then User should see the "Strayer University : Thank You" text on page              # FooterSteps.i_should_see_the_text_on_pages(String)
+      java.lang.AssertionError: Title didn't match expected [true] but found [false]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:494)
+      	at org.testng.Assert.assertEquals(Assert.java:123)
+      	at org.testng.Assert.assertEquals(Assert.java:286)
+      	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+      	at ?.Then User should see the "Strayer University : Thank You" text on page(src/test/resources/features/Forms.feature:150)
+
+Scenario: TC015: Verify User is able to submit Two Step  form: FAIL
+checking the device status...true
+Browser:ChromeDriver: chrome on XP (ade9efa514d995ba077dad23e5c2efcd)
+
+  @TwoStepForm @SUPMLP @Forms
+  Scenario: TC015: Verify User is able to submit Two Step  form                       # src/test/resources/features/Forms.feature:153
+    Given User move to Two step  form Page                                            # FormsSteps.i_move_to_Two_Step_Form()
+    When User enter "Two Step" as FirstName in Two Step form                          # FormsSteps.i_enter_as_FirstName_in_two_step_form(String)
+    And User enter "Form" as LastName in Two Step form                                # FormsSteps.i_enter_as_LastName_in_two_step_form(String)
+    And User enter "HQA" as Address in Two Step form                                  # FormsSteps.i_enter_as_Address_in_two_step_form(String)
+    And User enter "55111" as Zip in Two Step form                                    # FormsSteps.i_enter_as_Zip_in_two_step_form(String)
+    And User enter "1234567890" as PhoneNumber in Two Step form                       # FormsSteps.i_enter_as_PhoneNumber_in_two_step_form(String)
+    And User enter " twostepform@cunet.com" as Email in Two Step form                 # FormsSteps.i_enter_as_Email_in_two_step_form(String)
+    When User click "Next" Button in Two Step form                                    # FormsSteps.i_click_button_in_ts_form(String)
+    And User select "MBA" as Degree in Two Step form                                  # FormsSteps.i_select_as_Degree_in_two_step_form(String)
+      org.openqa.selenium.ElementNotVisibleException: element not interactable
+        (Session info: chrome=85.0.4183.83)
+        (Driver info: chromedriver=85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 14 milliseconds
+      Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+      System info: host: 'SEIXDTCDj000126', ip: '10.121.166.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_222'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64945}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}), userDataDir=C:\Users\PAAVULA\AppData\Local\Temp\scoped_dir9832_2053053405}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.83, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+      Session ID: 3e602e93f6c2ec1a9c4a2db7fa75442f
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+      	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+      	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+      	at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+      	at com.sun.proxy.$Proxy27.click(Unknown Source)
+      	at pages.actions.FormsActions.selectDegree2sf(FormsActions.java:717)
+      	at steps.FormsSteps.i_select_as_Degree_in_two_step_form(FormsSteps.java:838)
+      	at ?.And User select "MBA" as Degree in Two Step form(src/test/resources/features/Forms.feature:162)
+
+    And User select "Business Administration" as program of interest in Two Step form # FormsSteps.as_program_of_interest_in_two_step_form(String)
+    And User Selects "Yes" as TransferCreditInterest Option in Two Step form          # FormsSteps.i_enter_as_TC_in_two_step_form(String)
+    When User click "AgreeandGo" button in Two Step form                              # FormsSteps.i_click_button_in_two_step_form(String)
+    Then User should see the "200" Response Status code                               # FooterSteps.i_should_see_the_200_code(int)
+    And User should see the "Strayer University :: Thank You" text on page            # FooterSteps.i_should_see_the_text_on_pages(String)
+Current URL :https://stglearning2.strayer.edu/
+200
+200
+*************addVerificationFailure******************
+*************getVerificationFailures******************
+Scenario: TC016: Verify User is able to submit Long form: FAIL
+checking the device status...true
+Browser:ChromeDriver: chrome on XP (20d3ca560aa304afac76828fb59c1493)
+
+  @LongForm @SUPMLP @Forms
+  Scenario: TC016: Verify User is able to submit Long form                         # src/test/resources/features/Forms.feature:170
+    Given User move to Long  form Page                                             # FormsSteps.i_move_to_Long_Form_Lp()
+    And User enter "Long" as FirstName in Long form                                # FormsSteps.i_enter_as_FirstName_in_Long_form(String)
+    And User enter "Form" as LastName in Long form                                 # FormsSteps.i_enter_as_LastName_in_Long_form(String)
+    And User enter "HYDERABAD" as Address in Long form                             # FormsSteps.i_enter_as_Address_in_Long_form(String)
+    And User enter "longform@cunet.com" as Email in Long form                      # FormsSteps.i_enter_as_Email_in_Long_form(String)
+    And User enter "1234567890" as PhoneNumber in Long form                        # FormsSteps.i_enter_as_PhoneNumber_in_Long_form(String)
+    And User enter "55111" as Zip in Long form                                     # FormsSteps.i_enter_as_Zip_in_Long_form(String)
+    #  And User select "Some post graduate" as Education Level in Long form
+    And User select "Certificates" as Degree in Long form                          # FormsSteps.i_select_as_Degree_value__in_Long_form_Lpf(String)
+    And User select "Digital Entrepreneurship" as program of interest in Long form # FormsSteps.as_program_of_interest_valaue_in_Long_form_lpf(String)
+    And User Selects "Yes" as TransferCreditInterest Option in Long form           # FormsSteps.i_enter_as_TC_in_Long_form(String)
+    When User click "AgreeandGo" button in Long form                               # FormsSteps.i_click_button_in_Long_form_lp_for(String)
+    Then User should see the "200" Response Status code                            # FooterSteps.i_should_see_the_200_code(int)
+    And User should see the "Strayer University :: Thank You" text on page         # FooterSteps.i_should_see_the_text_on_pages(String)
+      java.lang.AssertionError: Title didn't match expected [true] but found [false]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:494)
+      	at org.testng.Assert.assertEquals(Assert.java:123)
+      	at org.testng.Assert.assertEquals(Assert.java:286)
+      	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+      	at ?.And User should see the "Strayer University :: Thank You" text on page(src/test/resources/features/Forms.feature:184)
+
+Current URL :https://stgcheddar2.strayer.edu/
+200
+200
+*************addVerificationFailure******************
+*************getVerificationFailures******************
+Scenario: TC017: Verify User is able to submit Cheddar form: FAIL
+checking the device status...true
+Browser:ChromeDriver: chrome on XP (25dfc5d6d774d2824a29de8adde612fc)
+
+  @CheddarFormWithDropdown @OMS @Forms
+  Scenario: TC017: Verify User is able to submit Cheddar form                                   # src/test/resources/features/Forms.feature:187
+    Given User Navigate to Cheddar Application Page                                             # FormsSteps.user_navigate_to_cheddar_page()
+    When User move to MicroSite form                                                            # FormsSteps.i_move_to_microsite_form()
+    And User enter "Cheddar with drop down" as FirstName in MicroSite form                      # FormsSteps.i_enter_something_as_firstname_in_MicroSite_form(String)
+    And User enter "Form" as LastName in MicroSite form                                         # FormsSteps.i_enter_something_as_lastname_in_MicroSite_form(String)
+    And User enter "55111" as Zip in MicroSite form                                             # FormsSteps.i_enter_something_as_zip_in_MicroSite_form(String)
+    And User enter "cheddarformdd@cunet.com" as Email in MicroSite form                         # FormsSteps.i_enter_something_as_email_in_MicroSite_form(String)
+    And User enter "1232344567" as PhoneNumber in MicroSite form                                # FormsSteps.i_enter_something_as_phonenumber_in_MicroSite_form(String)
+    And User select "High School Graduate" as education level in form                           # FormsSteps.as_education_of_level_in_cheddar_form(String)
+    When User click "Agree and Go" button in MicroSite form                                     # FormsSteps.i_click_something_button_in_microsite_form(String)
+    Then User should see the "200" Response Status code                                         # FooterSteps.i_should_see_the_200_code(int)
+    Then User should see the "Thank you page - RFI | Digital Entrepreneurship MBA" text on page # FooterSteps.i_should_see_the_text_on_pages(String)
+      java.lang.AssertionError: Title didn't match expected [true] but found [false]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:494)
+      	at org.testng.Assert.assertEquals(Assert.java:123)
+      	at org.testng.Assert.assertEquals(Assert.java:286)
+      	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+      	at ?.Then User should see the "Thank you page - RFI | Digital Entrepreneurship MBA" text on page(src/test/resources/features/Forms.feature:198)
+
+Current URL :https://stgcheddar2.strayer.edu/
+200
+200
+*************addVerificationFailure******************
+*************getVerificationFailures******************
+Scenario: TC018: Verify User is able to submit Cheddar Download form: FAIL
+checking the device status...true
+Browser:ChromeDriver: chrome on XP (b442e4f55a1ae9da44c6358e2601f77c)
+
+  @CheddarDownloadForm @OMS @Forms
+  Scenario: TC018: Verify User is able to submit Cheddar Download form         # src/test/resources/features/Forms.feature:201
+    Given User Navigate to Cheddar Application Page                            # FormsSteps.user_navigate_to_cheddar_page()
+    When User Click on "Download Now" Form link in Cheddar Page                # CheddarPageSteps.i_Click_on_form_link_in_Cheddar_page(String)
+    And User enter "Cheddar Download" as FirstName in Download form            # FormsSteps.i_enter_something_as_firstname_in_download_form(String)
+    And User enter "Form" as LastName in Download form                         # FormsSteps.i_enter_something_as_lastname_in_download_form(String)
+    And User enter "cheddardownloadform@cunet.com" as Email in Download form   # FormsSteps.i_enter_something_as_email_in_download_form(String)
+    And User enter "1232344567" as PhoneNumber in Download form                # FormsSteps.i_enter_something_as_phonenumber_in_download_form(String)
+    And User enter "55111" as Zip in Download form                             # FormsSteps.i_enter_something_as_zip_in_download_form(String)
+    And User select "High School Graduate" as education level in download form # FormsSteps.as_education_of_level_in_cheddar_download_form_val(String)
+    When User click "Submit" button in Cheddar Download form                   # FormsSteps.i_click_something_button_in_cheddar_download_form(String)
+    Then User should see the "200" Response Status code                        # FooterSteps.i_should_see_the_200_code(int)
+    Then User should see the "Thank you page - RFI " text on page              # FooterSteps.i_should_see_the_text_on_pages(String)
+      java.lang.AssertionError: Title didn't match expected [true] but found [false]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:494)
+      	at org.testng.Assert.assertEquals(Assert.java:123)
+      	at org.testng.Assert.assertEquals(Assert.java:286)
+      	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+      	at ?.Then User should see the "Thank you page - RFI " text on page(src/test/resources/features/Forms.feature:212)
+
+EMail:capella1598520173946@gmail1.com
+Dynamic phone no:1464192147
+Current URL :https://stgwww.capella.edu/
+200
+200
+Scenario: TC_024: Verify user is able to subit Email Us form: FAIL
+checking the device status...true
+Browser:ChromeDriver: chrome on XP (f97e3d80f77a733e6073f1ef6bb5c5ba)
+
+  @EmailUsForm @CUEDU @Forms
+  Scenario: TC_024: Verify user is able to subit Email Us form                          # src/test/resources/features/Forms.feature:215
+    Given User is on Capella Home Page                                                  # FormsSteps.mcReg_i_am_on_Capella_Home_Page()
+    And User click Email Us link under the menu                                         # FormsSteps.emailUsform_i_click_Schedule_Consultation_link_under_the_menu()
+    Then User move to Email Us Form                                                     # FormsSteps.i_move_to_email_us_form()
+    And User select "Certificate" as Degree in Email form                               # FormsSteps.emailUsform_i_select_a_Degree_in_Email_form(String)
+    And User select "Business" as Area of Study in Email form                           # FormsSteps.emailUsform_i_select_an_Area_of_Study_in_Email_form(String)
+    And User select "Undergrad Cert - Accounting" as Specialization Study in Email form # FormsSteps.emailUsform_i_select_a_Specialization_Study_in_Email_form(String)
+    And User enter "Email" as First Name in Email form                                  # FormsSteps.emailUsform_i_enter_First_Name_in_Email_form(String)
+    And User enter "Form" as Last Name in Email form                                    # FormsSteps.emailUsform_i_enter_Last_Name_in_Email_form(String)
+    And User enter email in Email Address in Email form                                 # FormsSteps.emailUsform_i_enter_an_Email_Address_in_Email_form()
+    And User enter PhoneNo as Phone Number in Email form                                # FormsSteps.emailUsform_i_enter_Phone_Number_in_Email_form()
+    And User enter "Test Comments" user Comments in Email form                          # FormsSteps.emailUsform_i_enter_user_comments_in_Email_form(String)
+    And User submit the Email form                                                      # FormsSteps.emailUsform_i_submit_the_email_form()
+    Then User should see the "200" Success Response Status code                         # FormsSteps.i_should_see_the_200_code_in_page(int)
+    And User should get Thank you window for Email form                                 # FormsSteps.i_should_get_thank_you_window_for_email_form()
+    And User should see "Thank you,Email." in the Thankyou Page for EmailUs Form        # FormsSteps.i_should_see_something_in_the_thankyou_page_for_emailus_form(String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[@class='h1']"}
+        (Session info: chrome=85.0.4183.83)
+        (Driver info: chromedriver=85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 7 milliseconds
+      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+      System info: host: 'SEIXDTCDj000126', ip: '10.121.166.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_222'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:65276}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}), userDataDir=C:\Users\PAAVULA\AppData\Local\Temp\scoped_dir3888_223978088}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.83, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+      Session ID: b442e4f55a1ae9da44c6358e2601f77c
+      *** Element info: {Using=xpath, value=//h2[@class='h1']}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+      	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+      	at com.sun.proxy.$Proxy27.getCoordinates(Unknown Source)
+      	at org.openqa.selenium.interactions.internal.MouseAction.getActionLocation(MouseAction.java:51)
+      	at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:39)
+      	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:50)
+      	at org.openqa.selenium.interactions.Actions.perform(Actions.java:373)
+      	at pages.actions.FormsActions.moveToMenu(FormsActions.java:30)
+      	at pages.actions.FormsActions.getThnTxtwinodw(FormsActions.java:1323)
+      	at steps.FormsSteps.i_should_see_something_in_the_thankyou_page_for_emailus_form(FormsSteps.java:1289)
+      	at ?.And User should see "Thank you,Email." in the Thankyou Page for EmailUs Form(src/test/resources/features/Forms.feature:230)
+
+    And User click "Close" button in Thank you Sucess window in form                    # FormsSteps.i_click_something_button_in_thank_you_sucess_window_in_form(String)
+Dynamic phone no:1463973492
+Current URL :https://stgwww.capella.edu/
+200
+200
+Scenario: TC_0025: Verify user is able to subit RFI form: FAIL
+checking the device status...true
+Browser:ChromeDriver: chrome on XP (141201a8382d31a9fd8117df8f20760d)
+
+  @RequestInfoForm @CUEDU @Forms
+  Scenario: TC_0025: Verify user is able to subit RFI form                              # src/test/resources/features/Forms.feature:234
+    Given User is on Capella Home Page                                                  # FormsSteps.mcReg_i_am_on_Capella_Home_Page()
+    And User click Request Information link under the menu                              # FormsSteps.RFI_i_click_Schedule_Consultation_link_under_the_menu()
+    And User select "Certificate" as Degree in RFI form                                 # FormsSteps.emailUsform_i_select_a_Degree_in_RFI_form(String)
+    And User select "Business" as Area of Study in RFI form                             # FormsSteps.emailUsform_i_select_an_Area_of_Study_in_RFI_form(String)
+    And User select "Undergrad Cert - Accounting" as Specialization Study in RFI form   # FormsSteps.emailUsform_i_select_a_Specialization_Study_in_RFI_form(String)
+    And User select "As soon as possible" as Start Date in RFI form                     # FormsSteps.emailUsform_i_select_a_Start_Date_in_RFI_form(String)
+    And User enter "Request Info" as First Name in RFI form                             # FormsSteps.emailUsform_i_enter_First_Name_in_RFI_form(String)
+    And User enter "Form" as Last Name in RFI form                                      # FormsSteps.emailUsform_i_enter_Last_Name_in_RFI_form(String)
+    And User enter email in Email Address in RFI form                                   # FormsSteps.emailUsform_i_enter_an_Email_Address_in_RFI_form()
+    And User enter PhoneNumber as Phone Number in RFI form                              # FormsSteps.emailUsform_i_enter_Phone_Number_in_RFI_form()
+    And User enter "55111" as ZipCode in RFI form                                       # FormsSteps.emailUsform_i_enter_user_zipcode_in_RFI_form(String)
+    And User submit the RFI form                                                        # FormsSteps.emailUsform_i_submit_the_RFI_form()
+    Then User should see the "200" Success Response Status code                         # FormsSteps.i_should_see_the_200_code_in_page(int)
+    And User should get Thank you window for RFI form                                   # FormsSteps.i_should_get_thank_you_window_for_RFI_form()
+    And User should see "Thank you,Request Info." in the Thankyou Page for EmailUs Form # FormsSteps.i_should_see_something_in_the_thankyou_page_for_emailus_form(String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[@class='h1']"}
+        (Session info: chrome=85.0.4183.83)
+        (Driver info: chromedriver=85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 7 milliseconds
+      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+      System info: host: 'SEIXDTCDj000126', ip: '10.121.166.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_222'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:65378}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}), userDataDir=C:\Users\PAAVULA\AppData\Local\Temp\scoped_dir2372_1793100511}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.83, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+      Session ID: f97e3d80f77a733e6073f1ef6bb5c5ba
+      *** Element info: {Using=xpath, value=//h2[@class='h1']}
+      	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+      	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+      	at com.sun.proxy.$Proxy27.getCoordinates(Unknown Source)
+      	at org.openqa.selenium.interactions.internal.MouseAction.getActionLocation(MouseAction.java:51)
+      	at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:39)
+      	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:50)
+      	at org.openqa.selenium.interactions.Actions.perform(Actions.java:373)
+      	at pages.actions.FormsActions.moveToMenu(FormsActions.java:30)
+      	at pages.actions.FormsActions.getThnTxtwinodw(FormsActions.java:1323)
+      	at steps.FormsSteps.i_should_see_something_in_the_thankyou_page_for_emailus_form(FormsSteps.java:1289)
+      	at ?.And User should see "Thank you,Request Info." in the Thankyou Page for EmailUs Form(src/test/resources/features/Forms.feature:249)
+
+    And User click "Close" button in Thank you Sucess window in form                    # FormsSteps.i_click_something_button_in_thank_you_sucess_window_in_form(String)
+Dynamic phone no:1461828236
+Current URL :https://stgwww.capella.edu/#
+200
+200
+Scenario: TC_026: Verify user is able to subit Schedule Consultation form: PASS
+checking the device status...true
+Browser:ChromeDriver: chrome on XP (374741c90c4c186b64358077e418f36e)
+
+  @ScheduleConsultationForm @CUEDU @Forms
+  Scenario: TC_026: Verify user is able to subit Schedule Consultation form                    # src/test/resources/features/Forms.feature:253
+    Given User is on Capella Home Page                                                         # FormsSteps.mcReg_i_am_on_Capella_Home_Page()
+    And User click Schedule Consultation link under the menu                                   # FormsSteps.RFI_i_click_Schedule_Consultation_link_CF_under_the_menu()
+    Then User move to Consultation form                                                        # FormsSteps.i_move_to_Consultation_form()
+    And User select "Certificate" as Degree in Consultation form                               # FormsSteps.emailUsform_i_select_a_Degree_in_Consultation_form(String)
+    And User select "Business" as Area of Study in Consultation form                           # FormsSteps.emailUsform_i_select_an_Area_of_Study_in_Consultation_form(String)
+    And User select "Undergrad Cert - Accounting" as Specialization Study in Consultation form # FormsSteps.emailUsform_i_select_a_Specialization_Study_in_Consultation_form(String)
+    And User select "As soon as possible" as Start Date in Consultation form                   # FormsSteps.emailUsform_i_select_a_Start_Date_in_Consultation_form(String)
+    And User enter "Schedule Consultation" as First Name in Consultation form                  # FormsSteps.emailUsform_i_enter_First_Name_in_Consultation_form(String)
+    And User enter "Form" as Last Name in Consultation form                                    # FormsSteps.emailUsform_i_enter_Last_Name_in_Consultation_form(String)
+    And User enter email in Email Address in Consultation form                                 # FormsSteps.emailUsform_i_enter_an_Email_Address_in_Consultation_form()
+    And User enter PhoneNumber as Phone Number in Consultation form                            # FormsSteps.emailUsform_i_enter_Phone_Number_in_Consultation_form()
+    And User enter "55111" as ZipCode in Consultation form                                     # FormsSteps.emailUsform_i_enter_user_zipcode_in_Consultation_form(String)
+    And User submit the Consultation form                                                      # FormsSteps.emailUsform_i_submit_the_Consultation_form()
+    Then User should see the "200" Success Response Status code                                # FormsSteps.i_should_see_the_200_code_in_page(int)
+    And User should get Thank you window for Consultation form                                 # FormsSteps.i_should_get_thank_you_window_for_CF_form()
+Dynamic phone no:1464213486
+Current URL :https://stgwww.capella.edu/charitable-giving/refer-a-friend/
+200
+200
+Scenario: TC_027: Verify Single Course Registration form: PASS
+checking the device status...true
+Browser:ChromeDriver: chrome on XP (b1855d01b39905c606daceb819b72160)
+
+  @ReferaFriendForm @CUEDU @Forms
+  Scenario: TC_027: Verify Single Course Registration form            # src/test/resources/features/Forms.feature:271
+    Given User is on Refer Friend Form Page                           # FormsSteps.i_have_refer_friend_form_page()
+    Then User move to Refer Friend form                               # FormsSteps.i_move_to_refer_friend_form()
+    And User enter "Automation" as First Name in Refer Friend form    # FormsSteps.i_enter_something_as_first_name_in_refer_friend_form(String)
+    And User enter "User" as Last Name in Refer Friend form           # FormsSteps.i_enter_something_as_last_name_in_refer_friend_form(String)
+    And User enter email in Email Address in Refer Friend form        # FormsSteps.i_enter_email_in_email_address_in_refer_friend_form()
+    And User select "Student" as Option  in Consultation form         # FormsSteps.i_select_something_as_option_in_consultation_form(String)
+    And User enter "Friend" as Friend First Name in Refer Friend form # FormsSteps.i_enter_First_Name_in_REF_form(String)
+    And User enter "User" as Friend Last Name in Refer Friend form    # FormsSteps.i_enter_Last_Name_in_REF_form(String)
+    And User enter email in Friend Email Address in Refer Friend form # FormsSteps.i_enter_an_Email_Address_in_REF_form()
+    And User enter PhoneNumber as Phone Number in Refer Friend form   # FormsSteps.i_enter_Phone_Number_in_REF_form()
+    And User submit the Refer Friend form                             # FormsSteps.i_submit_the_REF_form()
+    Then User should see the "200" Success Response Status code       # FormsSteps.i_should_see_the_200_code_in_page(int)
+    And User should get Thank you window for Refer Friend form        # FormsSteps.i_should_get_thank_you_window_for_refer_friend_form()
+MY PROFILE
+LOG IN
+*************addVerificationFailure******************
+*************getVerificationFailures******************
+Scenario: TC_028:  Verify user is able to submit My Capella Registration form: FAIL
+checking the device status...true
+Browser:ChromeDriver: chrome on XP (041fe75311aedd8c6686e009e43b615e)
+
+  @RegistrationForm @CUEDU @Forms
+  Scenario: TC_028:  Verify user is able to submit My Capella Registration form # src/test/resources/features/Forms.feature:287
+    Given User is on Capella Home Page                                          # FormsSteps.mcReg_i_am_on_Capella_Home_Page()
+    And User click Login link to check MC Login                                 # FormsSteps.i_click_Login_link_in_header_menu()
+    And User click Prospective Students link under Login                        # FormsSteps.i_click_Prospective_Students_link_under_Login()
+    Then User get MC Login modal form to enter credentials                      # FormsSteps.i_get_login_modal_form()
+    And User click Create a new Account link in Login modal                     # FormsSteps.i_click_create_account_link()
+    Then User get Create Account modal form                                     # FormsSteps.i_get_create_account_modal_form()
+    And User enter "Capellaone" First Name Create Account form                  # FormsSteps.i_enter_First_Name_in_create_account_form(String)
+    And User enter "Userone" Last Name in Create Account form                   # FormsSteps.i_enter_Last_Name_in_create_account_form(String)
+    And User enter an Email Address in Create Account form                      # FormsSteps.i_enter_an_Email_Address_in_create_account_form()
+    And User enter "Admin*12" Password in Create Account form                   # FormsSteps.i_enter_password_in_create_account_form(String)
+    And User enter "Admin*12" Confirm Password in Create Account form           # FormsSteps.i_enter_confirm_password_in_create_account_form(String)
+    And User click the Create Account button in form                            # FormsSteps.i_submit_the_create_account_form()
+    Then User should see the "MY PROFILE" text on My Capella Dashboard          # FormsSteps.i_should_see_the_something_text_on_my_capella_dashboard(String)
+      java.lang.AssertionError: Title didn't match expected [true] but found [false]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:494)
+      	at org.testng.Assert.assertEquals(Assert.java:123)
+      	at org.testng.Assert.assertEquals(Assert.java:286)
+      	at steps.FormsSteps.i_should_see_the_something_text_on_my_capella_dashboard(FormsSteps.java:1044)
+      	at ?.Then User should see the "MY PROFILE" text on My Capella Dashboard(src/test/resources/features/Forms.feature:300)
+
+Scenario: TC_031: Verify User is able to Submit PFQ Form: FAIL
+checking the device status...true
+Browser:ChromeDriver: chrome on XP (d22d701b286edb9565fdbb94d3a257be)
+
+  @PFQForm @CUEDU @Forms
+  Scenario: TC_031: Verify User is able to Submit PFQ Form             # src/test/resources/features/Forms.feature:303
+    Given User is on PFQ Page                                          # FormsSteps.user_is_on_pfq_page()
+    When User Fill Quiz                                                # FormsSteps.user_fill_quiz()
+    Then User Navigate to PFQ Form                                     # FormsSteps.user_navigate_to_pfq_form()
+    And User select "Certificate" as Degree                            # FormsSteps.user_select_something_as_degree(String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='degree_code']"}
+        (Session info: chrome=85.0.4183.83)
+        (Driver info: chromedriver=85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 31 milliseconds
+      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+      System info: host: 'SEIXDTCDj000126', ip: '10.121.166.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_222'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:49419}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}), userDataDir=C:\Users\PAAVULA\AppData\Local\Temp\scoped_dir9652_1530918767}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.83, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+      Session ID: 041fe75311aedd8c6686e009e43b615e
+      *** Element info: {Using=xpath, value=//*[@id='degree_code']}
+      	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+      	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+      	at com.sun.proxy.$Proxy27.getTagName(Unknown Source)
+      	at org.openqa.selenium.support.ui.Select.<init>(Select.java:44)
+      	at pages.actions.FormsActions.PFQSelectDegree(FormsActions.java:1712)
+      	at steps.FormsSteps.user_select_something_as_degree(FormsSteps.java:1978)
+      	at ?.And User select "Certificate" as Degree(src/test/resources/features/Forms.feature:307)
+
+    And User select "Counseling" as Area of Study                      # FormsSteps.user_select_something_as_area_of_study(String)
+    And User select "Grad Cert - Addictive Behavior" as Specialization # FormsSteps.user_select_somethingas_specialization(String)
+    And User enter "PFQ" as FirstName in PFQ Form                      # FormsSteps.i_enter_something_as_firstname_in_pfqform(String)
+    And User enter "Form" as LastName in PFQ Form                      # FormsSteps.i_enter_something_as_lastname_in_pfqform(String)
+    And User enter email in Email Address in PFQ Form                  # FormsSteps.emailUsform_i_enter_an_Email_Address_in_PFQ_form()
+    And User enter PhoneNo as Phone Number in PFQ Form                 # FormsSteps.i_enter_something_as_phonenumber_in_pfqform()
+    And User enter "99501" as Zip in PFQ Form                          # FormsSteps.i_enter_something_as_zip_in_pfqform(String)
+    When User click "AgreenGo" button in PFQ Form                      # FormsSteps.i_click_something_button_in_cheddar_pfqform(String)
+    Then User should see the "200" Response Status code                # FooterSteps.i_should_see_the_200_code(int)
+    Then User should see the "100%" text on PFQ Page                   # FormsSteps.i_should_see_the_something_text_on_pfq_page(String)
+Email: capella08090@gmail1.com
+Scenario: TC001:Verify user is able to submit Request Information form in Lp Bachelors Page: FAIL
+
+  @IRFForm @CUPMLP @Forms
+  Scenario: TC001:Verify user is able to submit Request Information form in Lp Bachelors Page      # src/test/resources/features/Forms.feature:321
+    Given User am on Capella LP Home Page                                                          # VCMenuSteps.userAmOnCapellaLPHomePage()
+    When User Click on  "Request Program Details" RFP                                              # VCMenuSteps.i_click_on_something_rfp(String)
+    Then User should navigate to Request Information form                                          # VCMenuSteps.i_should_navigate_to_request_information_form()
+    And User select "Certificate" as Degree in LP form                                             # FormsSteps.emailUsform_i_select_a_Degree_in_LP_form(String)
+    And User select "Analytics" as Area of Study in LP form                                        # FormsSteps.emailUsform_i_select_an_Area_of_Study_in_LP_form(String)
+    And User select "Grad Cert - Analytics Using SAS" as Bachelors Specialization Study in LP form # FormsSteps.emailUsform_i_select_a_Specialization_Study_in_LP_form_for_bachlpers(String)
+    And User enter "LP" as First Name in LP form                                                   # FormsSteps.emailUsform_i_enter_First_Name_in_LP_form(String)
+    And User enter "Form" as Last Name in LP form                                                  # FormsSteps.emailUsform_i_enter_Last_Name_in_LP_form(String)
+    And User enter "Email" in Email Address in LP form                                             # FormsSteps.emailUsform_i_enter_an_Email_Address_in_LP_form(String)
+    And User enter PhoneNumber as Phone Number in LP form                                          # FormsSteps.emailUsform_i_enter_Phone_Number_in_LP_form()
+    And User enter "55111" as ZipCode in LP form                                                   # FormsSteps.emailUsform_i_enter_user_zipcode_in_LP_form(String)
+    And User submit the LP form                                                                    # FormsSteps.emailUsform_i_submit_the_LP_form()
+    And User should see "Thank you," in the Thankyou Page for LP Form                              # FormsSteps.i_should_see_something_in_the_thankyou_page_for_LP_form(String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='title-section px-3 d-none d-md-block']"}
+        (Session info: chrome=85.0.4183.83)
+        (Driver info: chromedriver=85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 9 milliseconds
+      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+      System info: host: 'SEIXDTCDj000126', ip: '10.121.166.24', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_222'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:49528}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}), userDataDir=C:\Users\PAAVULA\AppData\Local\Temp\scoped_dir3280_916461280}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.83, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+      Session ID: d22d701b286edb9565fdbb94d3a257be
+      *** Element info: {Using=xpath, value=//div[@class='title-section px-3 d-none d-md-block']}
+      	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+      	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+      	at com.sun.proxy.$Proxy27.getCoordinates(Unknown Source)
+      	at org.openqa.selenium.interactions.internal.MouseAction.getActionLocation(MouseAction.java:51)
+      	at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:39)
+      	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:50)
+      	at org.openqa.selenium.interactions.Actions.perform(Actions.java:373)
+      	at pages.actions.FormsActions.moveToMenu(FormsActions.java:30)
+      	at pages.actions.FormsActions.getThnTxPage(FormsActions.java:1588)
+      	at steps.FormsSteps.i_should_see_something_in_the_thankyou_page_for_LP_form(FormsSteps.java:1827)
+      	at ?.And User should see "Thank you," in the Thankyou Page for LP Form(src/test/resources/features/Forms.feature:334)
+
+    And User should see "trigger=irf_submit" in Thankyou Page URL                                  # FormsSteps.i_should_see_something_in_thankyou_page_url(String)
+*************getVerificationFailures******************
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 85.0.4183.83 (since Google Chrome 85 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PAAVULA\.m2\repository\webdriver\chromedriver\win32\85.0.4183.83\chromedriver.exe
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 4535
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 85.0.4183.83 (since Google Chrome 85 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PAAVULA\.m2\repository\webdriver\chromedriver\win32\85.0.4183.83\chromedriver.exe
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 8422
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 85.0.4183.83 (since Google Chrome 85 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PAAVULA\.m2\repository\webdriver\chromedriver\win32\85.0.4183.83\chromedriver.exe
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 19248
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 85.0.4183.83 (since Google Chrome 85 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PAAVULA\.m2\repository\webdriver\chromedriver\win32\85.0.4183.83\chromedriver.exe
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 11467
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 85.0.4183.83 (since Google Chrome 85 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PAAVULA\.m2\repository\webdriver\chromedriver\win32\85.0.4183.83\chromedriver.exe
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 5630
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 85.0.4183.83 (since Google Chrome 85 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PAAVULA\.m2\repository\webdriver\chromedriver\win32\85.0.4183.83\chromedriver.exe
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 19867
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 85.0.4183.83 (since Google Chrome 85 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PAAVULA\.m2\repository\webdriver\chromedriver\win32\85.0.4183.83\chromedriver.exe
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 31830
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 85.0.4183.83 (since Google Chrome 85 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PAAVULA\.m2\repository\webdriver\chromedriver\win32\85.0.4183.83\chromedriver.exe
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 28359
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 85.0.4183.83 (since Google Chrome 85 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PAAVULA\.m2\repository\webdriver\chromedriver\win32\85.0.4183.83\chromedriver.exe
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 28093
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 85.0.4183.83 (since Google Chrome 85 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PAAVULA\.m2\repository\webdriver\chromedriver\win32\85.0.4183.83\chromedriver.exe
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 38498
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 85.0.4183.83 (since Google Chrome 85 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PAAVULA\.m2\repository\webdriver\chromedriver\win32\85.0.4183.83\chromedriver.exe
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 47445
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 85.0.4183.83 (since Google Chrome 85 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PAAVULA\.m2\repository\webdriver\chromedriver\win32\85.0.4183.83\chromedriver.exe
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 40395
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 85.0.4183.83 (since Google Chrome 85 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PAAVULA\.m2\repository\webdriver\chromedriver\win32\85.0.4183.83\chromedriver.exe
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 46331
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 85.0.4183.83 (since Google Chrome 85 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PAAVULA\.m2\repository\webdriver\chromedriver\win32\85.0.4183.83\chromedriver.exe
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 48229
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 85.0.4183.83 (since Google Chrome 85 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PAAVULA\.m2\repository\webdriver\chromedriver\win32\85.0.4183.83\chromedriver.exe
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 23769
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 85.0.4183.83 (since Google Chrome 85 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PAAVULA\.m2\repository\webdriver\chromedriver\win32\85.0.4183.83\chromedriver.exe
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 33120
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 85.0.4183.83 (since Google Chrome 85 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PAAVULA\.m2\repository\webdriver\chromedriver\win32\85.0.4183.83\chromedriver.exe
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 32049
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 85.0.4183.83 (since Google Chrome 85 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PAAVULA\.m2\repository\webdriver\chromedriver\win32\85.0.4183.83\chromedriver.exe
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 47824
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 85.0.4183.83 (since Google Chrome 85 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PAAVULA\.m2\repository\webdriver\chromedriver\win32\85.0.4183.83\chromedriver.exe
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 41275
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 85.0.4183.83 (since Google Chrome 85 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PAAVULA\.m2\repository\webdriver\chromedriver\win32\85.0.4183.83\chromedriver.exe
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 36478
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 85.0.4183.83 (since Google Chrome 85 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PAAVULA\.m2\repository\webdriver\chromedriver\win32\85.0.4183.83\chromedriver.exe
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 8256
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 85.0.4183.83 (since Google Chrome 85 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\PAAVULA\.m2\repository\webdriver\chromedriver\win32\85.0.4183.83\chromedriver.exe
+Starting ChromeDriver 85.0.4183.83 (94abc2237ae0c9a4cb5f035431c8adfb94324633-refs/branch-heads/4183@{#1658}) on port 31653
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+</testsuite>

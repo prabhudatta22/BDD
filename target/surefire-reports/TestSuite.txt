@@ -1,0 +1,113 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1,057.965 sec <<< FAILURE! - in TestSuite
+feature(runner.RunCuke)  Time elapsed: 1,051.04 sec  <<< FAILURE!
+java.lang.Throwable: 
+Multiple failures (16):nnFailure 1 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FormsSteps.i_should_see_navigate_to_the_thank_page(FormsSteps.java:71)
+	at ?.Then User should navigate to "Thank You" Thank you page(src/test/resources/features/Forms.feature:18)
+nnFailure 2 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FormsSteps.i_should_see_navigate_to_the_thank_page(FormsSteps.java:71)
+	at ?.Then User should navigate to "Thank You" Thank you page(src/test/resources/features/Forms.feature:31)
+nnFailure 3 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FormsSteps.i_should_see_navigate_to_the_thank_page(FormsSteps.java:71)
+	at ?.Then User should navigate to "Thank You" Thank you page(src/test/resources/features/Forms.feature:44)
+nnFailure 4 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+	at ?.Then User should see the "Thank you page - RFI " text on page(src/test/resources/features/Forms.feature:57)
+nnFailure 5 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+	at ?.Then User should see the "Thank you page - RFI | Digital Entrepreneurship MBA" text on page(src/test/resources/features/Forms.feature:70)
+nnFailure 6 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+	at ?.Then User should see the "Thank you page - RFI | Digital Entrepreneurship MBA" text on page(src/test/resources/features/Forms.feature:83)
+nnFailure 7 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+	at ?.Then User should see the "Thank you page - RFI " text on page(src/test/resources/features/Forms.feature:96)
+nnFailure 8 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+	at ?.Then User should see the "Strayer University :: Thank You" text on page(src/test/resources/features/Forms.feature:109)
+nnFailure 9 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+	at ?.Then User should see the "Strayer University :: Thank You" text on page(src/test/resources/features/Forms.feature:122)
+nnFailure 10 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+	at ?.Then User should see the "Strayer University :: Thank You" text on page(src/test/resources/features/Forms.feature:135)
+nnFailure 11 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+	at ?.Then User should see the "Strayer University : Thank You" text on page(src/test/resources/features/Forms.feature:150)
+nnFailure 12 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+	at ?.And User should see the "Strayer University :: Thank You" text on page(src/test/resources/features/Forms.feature:184)
+nnFailure 13 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+	at ?.Then User should see the "Thank you page - RFI | Digital Entrepreneurship MBA" text on page(src/test/resources/features/Forms.feature:198)
+nnFailure 14 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FooterSteps.i_should_see_the_text_on_pages(FooterSteps.java:176)
+	at ?.Then User should see the "Thank you page - RFI " text on page(src/test/resources/features/Forms.feature:212)
+nnFailure 15 of 16:njava.lang.AssertionError: Title didn't match expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:286)
+	at steps.FormsSteps.i_should_see_the_something_text_on_my_capella_dashboard(FormsSteps.java:1044)
+	at ?.Then User should see the "MY PROFILE" text on My Capella Dashboard(src/test/resources/features/Forms.feature:300)
+nnFailure 16 of 16:ncucumber.runtime.CucumberException: java.lang.AssertionError: Title didn't match expected [true] but found [false]
+
