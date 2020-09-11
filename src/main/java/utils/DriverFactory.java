@@ -179,6 +179,8 @@ public class DriverFactory {
 
 			case Constants.CHROME:
 				caps = DesiredCapabilities.chrome();
+				caps.setCapability("browser", "Chrome");
+				System.out.println("Chrome browser");
 				getBrowserstackCapabilities(caps);
 				break;
 			case Constants.FIREFOX:
@@ -197,6 +199,8 @@ public class DriverFactory {
 
 			case Constants.SAFARI:
 				caps = DesiredCapabilities.safari();
+				caps.setCapability("browser", "Safari");
+				System.out.println("Safari browser");
 				getBrowserstackCapabilities(caps);
 				break;
 			default:
@@ -205,7 +209,7 @@ public class DriverFactory {
 			}
 
 			driver = new RemoteWebDriver(new URL(Constants.BROWSERSTACK_URL), caps);
-			System.out.println(driver);
+			System.out.println("Browserstack driver >>> " + driver);
 			DriverManager.setDriver(driver);
 			if (TestSetUp.configProperty.getProperty(Constants.EXECUTION_ENV).contains("Windows")) {
 				DriverManager.maximizeBrowser(driver);
@@ -213,26 +217,26 @@ public class DriverFactory {
 			DriverManager.setImplicitWait(driver);
 		}
 
-		// driver = new RemoteWebDriver(new URL(url), capabilities);
 		DriverManager.setDriver(driver);
-		System.out.println("Browser:" + DriverManager.getDriver());
 		return DriverManager.getDriver();
 	}
 
 	private static DesiredCapabilities getBrowserstackCapabilities(DesiredCapabilities caps) {
 
+		caps.setCapability(Constants.OS, TestSetUp.configProperty.getProperty("os"));
 		caps.setCapability(Constants.OS_VERSION, TestSetUp.configProperty.getProperty("os_version"));
 		caps.setCapability(Constants.DEVICE, TestSetUp.configProperty.getProperty("device"));
 		caps.setCapability(Constants.REAL_MOBILE, TestSetUp.configProperty.getProperty("real_mobile"));
 		caps.setCapability(Constants.BROWSERSTACK_LOCAL, Constants.BROWSERSTACK_LOCAL_VALUE_TRUE);
 		caps.setCapability(Constants.BROWSERSTACK_DEBUG, Constants.BROWSERSTACK_DEBUG_VALUE_TRUE);
 		caps.setCapability(Constants.BROWSERSTACK_NETWORK_LOGS, Constants.BROWSERSTACK_LOCAL_VALUE_TRUE);
-		// caps.setCapability("browserstack.appium_version", "1.18.0");
-
+		caps.setCapability(Constants.BROWSERSTACK_BROWSER_VERSION,
+				TestSetUp.configProperty.getProperty("browser_version"));
+		System.out.println("Capability built up " + caps);
 		if (TestSetUp.configProperty.getProperty("deviceOrientation").equalsIgnoreCase("landscape")) {
 			caps.setCapability(Constants.DEVICE_ORIENTATION, "landscape");
 		}
-		System.out.println("Capability built up " + caps);
+
 		return caps;
 	}
 
