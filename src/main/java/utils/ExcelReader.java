@@ -28,8 +28,6 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import setup.TestSetUp;
-
 public class ExcelReader {
     public static String filename = System.getProperty("user.dir") + "\\src\\test\\resources\\testData\\TestData.xlsx";
     public String path;
@@ -48,7 +46,7 @@ public class ExcelReader {
 	    sheet = workbook.getSheetAt(0);
 	    fis.close();
 	} catch (Exception ex) {
-	    TestSetUp.appLogs.error(ex);
+	    // TestSetUp.appLogs.error(ex);
 	}
     }
 
@@ -104,7 +102,7 @@ public class ExcelReader {
 	    else
 		return String.valueOf(cell.getBooleanCellValue());
 	} catch (Exception exc) {
-	    TestSetUp.appLogs.error(exc);
+	    // TestSetUp.appLogs.error(exc);
 	    return "row " + rowNum + " or column " + colName + " does not exist in xls";
 	}
     }
@@ -142,7 +140,7 @@ public class ExcelReader {
 	    else
 		return String.valueOf(cell.getBooleanCellValue());
 	} catch (Exception e) {
-	    TestSetUp.appLogs.error(e);
+	    // TestSetUp.appLogs.error(e);
 	    return "row " + rowNum + " or column " + colNum + " does not exist  in xls";
 	}
     }
@@ -178,7 +176,7 @@ public class ExcelReader {
 	    workbook.write(fileOut);
 	    fileOut.close();
 	} catch (Exception exep) {
-	    TestSetUp.appLogs.error(exep);
+	    // TestSetUp.appLogs.error(exep);
 	    return false;
 	}
 	return true;
@@ -227,7 +225,7 @@ public class ExcelReader {
 	    workbook.write(fileOut);
 	    fileOut.close();
 	} catch (Exception exept) {
-	    TestSetUp.appLogs.error(exept);
+	    // TestSetUp.appLogs.error(exept);
 	    return false;
 	}
 	return true;
@@ -241,7 +239,7 @@ public class ExcelReader {
 	    workbook.write(fileOut);
 	    fileOut.close();
 	} catch (Exception e) {
-	    TestSetUp.appLogs.error(e);
+	    // TestSetUp.appLogs.error(e);
 	    return false;
 	}
 	return true;
@@ -259,7 +257,7 @@ public class ExcelReader {
 	    workbook.write(fileOut);
 	    fileOut.close();
 	} catch (Exception e) {
-	    TestSetUp.appLogs.error(e);
+	    // TestSetUp.appLogs.error(e);
 	    return false;
 	}
 	return true;
@@ -290,7 +288,7 @@ public class ExcelReader {
 	    workbook.write(fileOut);
 	    fileOut.close();
 	} catch (Exception err) {
-	    TestSetUp.appLogs.error(err);
+	    // TestSetUp.appLogs.error(err);
 	    return false;
 	}
 	return true;
@@ -322,7 +320,7 @@ public class ExcelReader {
 	    workbook.write(fileOut);
 	    fileOut.close();
 	} catch (Exception exeption) {
-	    TestSetUp.appLogs.error(exeption);
+	    // TestSetUp.appLogs.error(exeption);
 	    return false;
 	}
 	return true;

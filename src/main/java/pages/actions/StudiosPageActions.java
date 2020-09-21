@@ -5,8 +5,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
-
 import pages.locators.*;
 import utils.BasePage;
 import utils.DriverManager;
@@ -89,6 +87,7 @@ public class StudiosPageActions extends BasePage<Object> {
 		return studiosPageLocators.quoteTxt.getText();
 	}
 
+	@SuppressWarnings("rawtypes")
 	@Override
 	public ExpectedCondition getPageLoadCondition() {
 		return null;

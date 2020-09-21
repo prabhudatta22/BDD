@@ -16,7 +16,6 @@ import java.net.URL;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.JavascriptExecutor;
@@ -59,9 +58,11 @@ public abstract class BasePage<T> extends TestSetUp {
 	DriverManager.getDriver().get(url);
     }
 
-    public abstract ExpectedCondition getPageLoadCondition();
+    @SuppressWarnings("rawtypes")
+	public abstract ExpectedCondition getPageLoadCondition();
 
-    public void waitForPageLoad(ExpectedCondition pageLoadCondition) {
+    @SuppressWarnings("unchecked")
+	public void waitForPageLoad(@SuppressWarnings("rawtypes") ExpectedCondition pageLoadCondition) {
 	WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Constants.DRIVER_TIME_OUT);
 	wait.until(pageLoadCondition);
     }
@@ -212,7 +213,7 @@ public abstract class BasePage<T> extends TestSetUp {
      */
     public void click(WebElement element, String elementName) {
 	element.click();
-	testCaseLogger.get().log(Status.INFO, "Clicked on " + elementName);
+//	testCaseLogger.get().log(Status.INFO, "Clicked on " + elementName);
     }
 
     /**
@@ -326,7 +327,7 @@ public abstract class BasePage<T> extends TestSetUp {
 	    webElement = (new WebDriverWait(DriverManager.getDriver(), secs))
 		    .until(ExpectedConditions.presenceOfElementLocated(by));
 	} catch (Exception ex) {
-	    appLogs.error(ex);
+	    // appLogs.error(ex);
 	}
 	return webElement;
     }
@@ -513,5 +514,15 @@ public abstract class BasePage<T> extends TestSetUp {
 
 	fluentWait(2);
     }
+    
+    public void jsClick(WebElement pageElement, String logMessage) {
+		try {
+			((JavascriptExecutor) DriverManager.getDriver()).executeScript("arguments[0].click();", pageElement);
+			testCaseLogger.get().pass("Verify click action on: " + logMessage);
+		} catch (Exception exception) {
+			testCaseLogger.get().error(exception.getLocalizedMessage());
+
+		}
+	}
 
 }

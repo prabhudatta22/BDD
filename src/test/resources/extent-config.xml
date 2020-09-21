@@ -14,10 +14,10 @@
 		<protocol>https</protocol>
 
 		<!-- title of the document -->
-		<documentTitle>SEI Automation</documentTitle>
+		<documentTitle>SEI Mobile Automation</documentTitle>
 
 		<!-- report headline - displayed at top-nav, after reportHeadline -->
-		<reportHeadline>SEI Project Automation Report</reportHeadline>
+		<reportHeadline>SEI Mobile Automation Report</reportHeadline>
 
 		<!-- global date format override -->
 		<!-- defaults to yyyy-MM-dd -->
@@ -53,7 +53,7 @@
 				    styleElement.appendChild(document.createTextNode('nav .nav-wrapper .blue.darken-3.brand-logo{background-color: #fff !important}'));
             			
             		var reportNameElem = document.getElementsByClassName('report-name')[0];
-            			reportNameElem.innerHTML = 'SEI Automation Report';
+            			reportNameElem.innerHTML = 'SEI Mobile Automation Report';
             			
             		var favicon = document.createElement('link');
             		favicon.setAttribute('rel', 'icon');

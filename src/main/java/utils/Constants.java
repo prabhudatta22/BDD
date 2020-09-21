@@ -65,8 +65,8 @@ public class Constants {
 	 * ----------------------------------------------------------
 	 */
 
-	public static final String BROWSERSTACK_USERNAME = "pradeep534";
-	public static final String BROWSERSTACK_ACCESS_KEY = "TQZG3jPy3bBtvx6HvTMo";
+	public static final String BROWSERSTACK_USERNAME = "meghakhati1";
+	public static final String BROWSERSTACK_ACCESS_KEY = "nqaitbCyVesNBMZ5vwG9";
 	public static final String BROWSERSTACK_URL = "https://" + BROWSERSTACK_USERNAME + ":" + BROWSERSTACK_ACCESS_KEY
 			+ "@hub-cloud.browserstack.com/wd/hub";
 	public static final String BROWSERSTACK_TAGS = "BrowserStackTest";

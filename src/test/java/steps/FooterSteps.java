@@ -170,7 +170,9 @@ public class FooterSteps extends TestSetUp {
 
     @Then("^User should see the \"([^\"]*)\" text on page$")
     public void i_should_see_the_text_on_pages(String expectedMenuText) throws Throwable {
+   
 	Thread.sleep(5000);
+ 	closeAlert();
 	boolean result = footerActions.getTxtpage().contains(expectedMenuText);
 	try {
 	    Assert.assertEquals(result, true, "Title didn't match");

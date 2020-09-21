@@ -24,7 +24,8 @@ public class VCMegaMenuActions extends BasePage<Object> {
 	action.moveToElement(ele).perform();
     }
 
-    @Override
+    @SuppressWarnings("rawtypes")
+	@Override
     public ExpectedCondition getPageLoadCondition() {
 
 	return null;
@@ -234,6 +235,10 @@ public class VCMegaMenuActions extends BasePage<Object> {
 	navigateToURL(ProjectVariables.CULPHomePage_URL);
     }
 
+    public void OpenLpAccessibilityPage() {
+	navigateToURL(ProjectVariables.CULPAccessibilityPage_URL);
+    }
+
     public void OpenLpPhdPage() {
 	navigateToURL(ProjectVariables.CULPPHDPage_URL);
     }
@@ -264,6 +269,12 @@ public class VCMegaMenuActions extends BasePage<Object> {
 	waitForElementToVisible(menuLocators.culpFooter, 2);
 	moveToMenu(menuLocators.culpFooter);
 	highlightElement(menuLocators.culpFooter);
+    }
+
+    public void moveToAccessabilityFooter() {
+	waitForElementToVisible(menuLocators.culpAccessFooter, 2);
+	moveToMenu(menuLocators.culpAccessFooter);
+	highlightElement(menuLocators.culpAccessFooter);
     }
 
     public void moveToFooterLinkModule() {

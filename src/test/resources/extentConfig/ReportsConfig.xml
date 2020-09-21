@@ -14,10 +14,10 @@
 		<protocol>https</protocol>
 
 		<!-- title of the document -->
-		<documentTitle>SEI Automation</documentTitle>
+		<documentTitle>SEI Mobile Automation</documentTitle>
 
 		<!-- report headline - displayed at top-nav, after reportHeadline -->
-		<reportHeadline>SEI Project Automation Report</reportHeadline>
+		<reportHeadline>SEI Mobile Automation Report</reportHeadline>
 
 		<!-- global date format override -->
 		<!-- defaults to yyyy-MM-dd -->
@@ -38,7 +38,7 @@
             			logoElem.innerHTML = '',
             			basePath = window.location.href.replace('extentreport.html', '')
            			/* Add logo image and anchor */
-           			image.src = 'https://www.capella.edu/content/dam/capella/hp-site/logo_capellaheader_237x37_121718.png';
+           			image.src = 'https://s22.q4cdn.com/308984131/files/design/strategiceduinc_logo_nomark_white.png';
            			/* basePath + 'Logo.png'; */
            			logoElem.setAttribute('href', 'https://www.capella.edu');
            			logoElem.setAttribute('target', '_blank');
@@ -53,7 +53,7 @@
 				    styleElement.appendChild(document.createTextNode('nav .nav-wrapper .blue.darken-3.brand-logo{background-color: #fff !important}'));
             			
             		var reportNameElem = document.getElementsByClassName('report-name')[0];
-            			reportNameElem.innerHTML = 'SEI Automation Report';
+            			reportNameElem.innerHTML = 'SEI Mobile Automation Report';
             			
             		var favicon = document.createElement('link');
             		favicon.setAttribute('rel', 'icon');

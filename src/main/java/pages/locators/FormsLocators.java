@@ -1,5 +1,7 @@
 package pages.locators;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -110,6 +112,26 @@ public class FormsLocators {
 
     @FindBy(xpath = "//*[@id='rfi']/div[2]/select")
     public WebElement programInterrest1BR;
+    
+    @FindBy(xpath = "//input[@placeholder='First Name']")
+    public List<WebElement> firstName_banner;
+
+    @FindBy(xpath = "//input[@placeholder='Last Name']")
+    public List<WebElement> lastName_banner;
+    
+    @FindBy(xpath = "//input[@data-km-value='email']")
+    public List<WebElement> email_banner;
+    
+    @FindBy(xpath = "//input[@data-km-value='phone']")
+    public List<WebElement> phone_banner;
+    
+    @FindBy(xpath = "//input[@data-km-value='zip-code']")
+    public List<WebElement> zip_banner;
+  
+    @FindBy(xpath = "//button[@data-km-value='agree-&-go']")
+    public List<WebElement> agreeGoBtn_banner;
+  
+  
 
     @FindBy(xpath = "//div[contains(@class,'inline-form seahawk_inline_relative')]//div//input[@placeholder='First Name']")
     public WebElement fNameBR;
@@ -298,7 +320,7 @@ public class FormsLocators {
     @FindBy(xpath = " //*[@id=\"twostep-rfi-banner\"]/div[9]/fieldset/div/span[2]/input")
     public WebElement tCYesInTwoStepForm;
 
-    @FindBy(xpath = "//button[@class='btn btn-primary']")
+    @FindBy(xpath = "//button[contains(text(),'AGREE & GO')]")
     public WebElement submitBtnlf;
 
     @FindBy(xpath = "//*[@id='login']")
@@ -321,18 +343,26 @@ public class FormsLocators {
     @FindBy(xpath = "//div[contains(@class,'shortform aem-GridColumn aem-GridColumn--default--12')]//section[contains(@class,'visible-desktop')]")
     public WebElement shortform;
 
-    @FindBy(xpath = "//section[contains(@class,'visible-desktop')]//div//input[contains(@placeholder,'First Name')]")
+    @FindBy(xpath = "//a[@id='scrollToForm']")
+    public WebElement shortformnavigation;
+    
+    @FindBy(xpath = ".//*[@data-km-value='request-info']")
+    public WebElement bannerRequestForm;
+    
+  
+    
+    @FindBy(xpath = "//section[@id='request-info']//div//input[contains(@placeholder,'First Name')]")
     public WebElement fNamesf;
-    @FindBy(xpath = "//section[contains(@class,'visible-desktop')]//div//input[contains(@placeholder,'Last Name')]")
+    @FindBy(xpath = "//section[@id='request-info']//div//input[contains(@placeholder,'Last Name')]")
     public WebElement lNamesf;
-    @FindBy(xpath = "//section[contains(@class,'visible-desktop')]//div//input[contains(@placeholder,'Email')]")
+    @FindBy(xpath = "//section[@id='request-info']//div//input[contains(@placeholder,'Email')]")
     public WebElement emailsf;
 
-    @FindBy(xpath = "//section[contains(@class,'visible-desktop')]//div//input[contains(@placeholder,'Phone')]")
+    @FindBy(xpath = "//section[@id='request-info']//div//input[contains(@placeholder,'Phone')]")
     public WebElement phoneNumbersf;
-    @FindBy(xpath = "//section[contains(@class,'visible-desktop')]//div//input[contains(@placeholder,'ZIP Code')]")
+    @FindBy(xpath = "//section[@id='request-info']//div//input[contains(@placeholder,'ZIP Code')]")
     public WebElement zipCodesf;
-    @FindBy(xpath = "//section[contains(@class,'visible-desktop')]//div//button[contains(@class,'btn btn-primary')][contains(text(),'AGREE & GO')]")
+    @FindBy(xpath = "//section[@id='request-info']//div//button[contains(@class,'btn btn-primary')][contains(text(),'AGREE & GO')]")
     public WebElement AgreeBtnsf;
 
     @FindBy(xpath = "//section[contains(@class,'visible-desktop')]//div//select[contains(@name,'Degree')]")
@@ -787,6 +817,10 @@ public class FormsLocators {
     /** This variable is for Email Error Element. */
     @FindBy(xpath = "//div[@id='email-error']")
     public WebElement LPemailError;
+
+    /** This variable is for Email Validations Error Element. */
+    @FindBy(xpath = "//*[@class='error-summary p-l-1']")
+    public WebElement LPemailvalidError;
 
     /** This variable is for Phone No Error Element. */
     @FindBy(xpath = "//div[@id='phone-error']")

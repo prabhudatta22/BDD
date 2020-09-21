@@ -20,7 +20,7 @@ import utils.ErrorUtil;
 import utils.ProjectVariables;
 
 public class FormsSteps extends TestSetUp {
-    private static final String logMsgs = null;
+ //   private static final String logMsgs = null;
     FormsLocators formsLocators = new FormsLocators();
     FormsActions formsActions = new FormsActions();
     FooterActions footerActions = new FooterActions();
@@ -206,30 +206,61 @@ public class FormsSteps extends TestSetUp {
     public void i_enter_as_FirstName_in_Bform(String fName) throws Throwable {
 	formsActions.enterfNameInBR(fName);
     }
+    
+    @When("^User enter \"([^\"]*)\" as FirstName in Ribbon Banner form$")
+    public void i_enter_as_FirstName_in_RBform(String fName) throws Throwable {
+	formsActions.enterfNameInRBR(fName);
+    }
 
     @When("^User enter \"([^\"]*)\" as LastName in Banner form$")
     public void i_enter_as_LastName_in_Bform(String lName) throws Throwable {
 	formsActions.enterlNameInBR(lName);
+    }
+    
+    @And("^User enter \"([^\"]*)\" as LastName in Ribbon Banner form$")
+    public void i_enter_as_LastName_in_RBform(String lName) throws Throwable {
+	formsActions.enterlNameInRBR(lName);
     }
 
     @When("^User enter \"([^\"]*)\" as Email in Banner form$")
     public void i_enter_as_Email_in_Bform(String email) throws Throwable {
 	formsActions.enterEmailKInBR(email);
     }
+    
+    @And("^User enter \"([^\"]*)\" as Email in Ribbon Banner form$")
+    public void i_enter_as_Email_in_RBform(String email) throws Throwable {
+	formsActions.enterEmailKInRBR(email);
+    }
 
     @When("^User enter \"([^\"]*)\" as PhoneNumber in Banner form$")
     public void i_enter_as_PhoneNumber_in_Bform(String phone) throws Throwable {
 	formsActions.enterphoneNumberInBR1(phone);
+    }
+    
+    @When("^User enter \"([^\"]*)\" as PhoneNumber in Ribbon Banner form$")
+    public void i_enter_as_PhoneNumber_in_RBform(String phone) throws Throwable {
+	formsActions.enterphoneNumberInRBR1(phone);
     }
 
     @When("^User enter \"([^\"]*)\" as Zip in Banner form$")
     public void i_enter_as_Zip_in_Bform(String zip) throws Throwable {
 	formsActions.enterZipinBR(zip);
     }
+    
+    @And("^User enter \"([^\"]*)\" as Zip in Ribbon Banner form$")
+    public void i_enter_as_Zip_in_RBform(String zip) throws Throwable {
+	formsActions.enterZipinRBR(zip);
+    }
 
     @When("^User click \"([^\"]*)\" button in Banner form$")
     public void i_click_button_in_Bform(String arg1) throws Throwable {
 	formsActions.ClickAnGobtninBR();
+	Thread.sleep(5000);
+    }
+    
+    @When("^User click \"([^\"]*)\" button in Ribbon Banner form$")
+    public void i_click_button_in_RBform(String arg1) throws Throwable {
+	formsActions.ClickAnGobtninRBR();
 	Thread.sleep(5000);
     }
 
@@ -673,7 +704,7 @@ public class FormsSteps extends TestSetUp {
     @When("^User click \"([^\"]*)\" button in LinkedIn form$")
     public void i_click_button_in_LinkedIn_form(String LinkedIn) throws Throwable {
 	formsActions.ClickSubmitBtnlf();
-	Thread.sleep(3000);
+	Thread.sleep(10000);
     }
 
     @When("^User Enter \"([^\"]*)\" ,  \"([^\"]*)\" and Clicked on \"([^\"]*)\" Button$")
@@ -763,13 +794,25 @@ public class FormsSteps extends TestSetUp {
     @Given("^User move to Short form Page$")
     public void i_move_to_Short_Form_Page() throws Throwable {
 	formsActions.OpenShortFormPage();
+	Thread.sleep(10000);
+	
     }
 
     @When("^User move to Short form$")
     public void i_move_to_Short_Form() throws Throwable {
 	formsActions.movetoShortRFI();
     }
+    @When("^User Clicks on \"([^\"]*)\" Link in Footer Ribbon$")
+    public void userClicksOnSomethingLinkInFooterRibbon(String strArg1) throws Throwable {
+    	formsActions.clickRFIinFooter();
+    }
 
+    @When("^User Clicks on \"([^\"]*)\" Link in Footer Ribbon in Banner form$")
+    public void userClicksOnBannerRibbon(String strArg1) throws Throwable {
+    	formsActions.clickRFIinBanner();
+    }
+
+    
     @When("^User enter \"([^\"]*)\" as FirstName in Short form$")
     public void i_enter_as_FirstName_in_Short_form(String fName) throws Throwable {
 	formsActions.enterfNameSF(fName);
@@ -803,6 +846,7 @@ public class FormsSteps extends TestSetUp {
     @When("^User click \"([^\"]*)\" button in Short form$")
     public void i_click_button_in_Short_form(String arg1) throws Throwable {
 	formsActions.clickAnGobtnSF();
+	Thread.sleep(5000);
     }
 
     // ****** Short from with drop down ***********************************
@@ -1436,7 +1480,6 @@ public class FormsSteps extends TestSetUp {
     public void emailUsform_i_enter_Phone_Number_in_Consultation_form() throws Throwable {
 	String PhNumbmer = formsActions.getPhoneNumber();
 	System.out.println("Dynamic phone no:" + PhNumbmer);
-
 	formsActions.enterPhNumEForm(PhNumbmer);
     }
 
@@ -1742,6 +1785,7 @@ public class FormsSteps extends TestSetUp {
     @Given("^User select \"([^\"]*)\" as Area of Study in LP form$")
     public void emailUsform_i_select_an_Area_of_Study_in_LP_form(String aos) throws Throwable {
 	formsActions.selectAOSEFormLP(aos);
+	Thread.sleep(3000);
 
     }
 
@@ -1797,6 +1841,17 @@ public class FormsSteps extends TestSetUp {
 	Thread.sleep(1000);
     }
 
+    @And("^User enter \"([^\"]*)\" in Test Email Address in LP form$")
+    public void emailUsform_i_enter_test_Email_Address_in_LP_form(String dynEmailAddres) throws Throwable {
+	/*
+	 * String dynEmailAddress = formsActions.getUniqueEmail();
+	 * System.out.println("Email: " + dynEmailAddress);
+	 *///
+	formsActions.enterEmailAddress(dynEmailAddres);
+	// formsActions.enterEmailAddressLPForm(dynEmailAddr);
+	Thread.sleep(1000);
+    }
+
     @And("^User enter PhoneNumber as Phone Number in LP form$")
     public void emailUsform_i_enter_Phone_Number_in_LP_form() throws Throwable {
 	String PhNumbmer = formsActions.getPhoneNumber();
@@ -1814,7 +1869,7 @@ public class FormsSteps extends TestSetUp {
     public void emailUsform_i_submit_the_LP_form() throws Throwable {
 	// Write code here that turns the phrase above into concrete actions
 	formsActions.clickEmailUsAgreeGoBtn();
-	Thread.sleep(2000);
+//	Thread.sleep(1000);
     }
 
     @And("^User should see Thank you for your interest window$")
@@ -1923,6 +1978,19 @@ public class FormsSteps extends TestSetUp {
 	boolean result = formsActions.getLPEmailError().contains(expectedErrorMsg);
 	System.out.println(expectedErrorMsg);
 	System.out.println(formsActions.getLPEmailError());
+	try {
+	    Assert.assertEquals(result, true, "Title didn't match");
+	} catch (Throwable t) {
+	    ErrorUtil.addVerificationFailure(t);
+	    throw t;
+	}
+    }
+
+    @Then("^User should see the \"([^\"]*)\" for Email field validations in LP Form$")
+    public void i_should_see_the_for_Email_field_validations_LP(String emailerrormsg) throws Throwable {
+	boolean result = formsActions.getLPEmailValidError().contains(emailerrormsg);
+	System.out.println(emailerrormsg);
+	System.out.println(formsActions.getLPEmailValidError());
 	try {
 	    Assert.assertEquals(result, true, "Title didn't match");
 	} catch (Throwable t) {

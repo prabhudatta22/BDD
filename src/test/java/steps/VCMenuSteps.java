@@ -23,6 +23,11 @@ public class VCMenuSteps extends TestSetUp {
 	megamenuActions.OpenLpHomePage();
     }
 
+    @Given("^User am on Capella LP Accessibility commitment Page$")
+    public void userAmOnCapellaLPAccessibilityPage() throws Throwable {
+	megamenuActions.OpenLpAccessibilityPage();
+    }
+
     @Given("^User am on Capella LP PHD Page$")
     public void userAmOnCapellaLP_PHD_Page() throws Throwable {
 	megamenuActions.OpenLpPhdPage();
@@ -89,6 +94,11 @@ public class VCMenuSteps extends TestSetUp {
     @When("^User move to Footer$")
     public void userMoveToFooter() throws Throwable {
 	megamenuActions.moveToFooter();
+    }
+
+    @When("^User move to Accessibility Footer$")
+    public void userMoveToAccessibilityFooter() throws Throwable {
+	megamenuActions.moveToAccessabilityFooter();
     }
 
     @And("^User Click on  \"([^\"]*)\" Footer Link$")
@@ -368,7 +378,7 @@ public class VCMenuSteps extends TestSetUp {
     @Then("User should navigate to Request Information form$")
     public void i_should_navigate_to_request_information_form() throws Throwable {
 	megamenuActions.movetoRfiForm();
-	Thread.sleep(1500);
+	Thread.sleep(5000);
     }
 
     @Then("^User move to Get The Details Module$")

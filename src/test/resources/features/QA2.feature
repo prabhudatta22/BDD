@@ -1,19 +1,16 @@
 Feature: Test QA
 
-   @ScheduleConsultationForm @CUEDU @Forms
-  Scenario: TC_026: Verify user is able to subit Schedule Consultation form
-    Given User is on Capella Home Page
-    And User click Schedule Consultation link under the menu
-    Then User move to Consultation form
-    And User select "Certificate" as Degree in Consultation form
-    And User select "Business" as Area of Study in Consultation form
-    And User select "Undergrad Cert - Accounting" as Specialization Study in Consultation form
-    And User select "As soon as possible" as Start Date in Consultation form
-    And User enter "Schedule Consultation" as First Name in Consultation form
-    And User enter "Form" as Last Name in Consultation form
-    And User enter email in Email Address in Consultation form
-    And User enter PhoneNumber as Phone Number in Consultation form
-    And User enter "55111" as ZipCode in Consultation form
-    And User submit the Consultation form
-    Then User should see the "200" Success Response Status code
-    And User should get Thank you window for Consultation form
+  @SmokeTest @Regression @Forms @OMS
+  Scenario: TC005: Verify user is able to submit Degree header form
+    Given User Navigate to Degree Page
+    When User click on Hambergur menu
+    When User Click on LEARN MORE link in Degree Page Header
+    And User enter "Degree" as FirstName in Degree form
+    And User enter "Form" as LastName in Degree form
+    And User enter "TA DIGITAL" as Company in Degree form
+    And User enter "Mr Pradeep" as Title in Degree form
+    And User enter "degreeform@cunet.com" as Email in Degree form
+    And User enter "BEST COMPANY" as Comments in Degree form
+    When User click "Submit" button in Degree form
+    Then User should see the "200" Response Status code
+    

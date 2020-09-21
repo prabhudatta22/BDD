@@ -105,7 +105,8 @@ public class FooterActions extends BasePage<Object> {
 
     }
 
-    @Override
+    @SuppressWarnings("rawtypes")
+	@Override
     public ExpectedCondition getPageLoadCondition() {
 	return null;
     }
@@ -351,6 +352,8 @@ public class FooterActions extends BasePage<Object> {
      * footerLocators.agreenGobtnVBR.submit(); }
      */
     public String getTxtpage() {
+    	String Url = DriverManager.getDriver().getCurrentUrl();
+    	System.out.println("Current URL :" + Url);
 	return DriverManager.driver.get().getTitle();
     }
 

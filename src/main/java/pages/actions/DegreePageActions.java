@@ -62,6 +62,7 @@ public class DegreePageActions extends BasePage<Object> {
 		highlightElement(degreePageLocators.quoteComp);
 	}
 
+	@SuppressWarnings("rawtypes")
 	@Override
 	public ExpectedCondition getPageLoadCondition() {
 		return null;
@@ -222,4 +223,11 @@ public class DegreePageActions extends BasePage<Object> {
 	 * highlightElement(degreePageLocators.closeBtn);
 	 * degreePageLocators.closeBtn.click(); }
 	 */
+
+	public void clickhamburgerMenu() {
+		
+		waitForElementToVisible(degreePageLocators.hamburgerMenu, 5);
+		highlightElement(degreePageLocators.hamburgerMenu);
+		click(degreePageLocators.hamburgerMenu, "Hamburger Menu");
+	}
 }

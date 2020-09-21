@@ -34,12 +34,11 @@ public class CheddarPageActions extends BasePage<Object> {
 
 	public void open_mobilemba_Application() {
 		navigateToURL(ProjectVariables.MMBA_URL);
-
+		waitForElementToVisible(cheddarPageLocators.headerLogo, 2);
 	}
 
 	public void clickLogo() {
 		waitForElementToVisible(cheddarPageLocators.headerLogo, 2);
-
 		highlightElement(cheddarPageLocators.headerLogo);
 		moveToMenu(cheddarPageLocators.headerLogo);
 		cheddarPageLocators.headerLogo.click();
@@ -48,7 +47,6 @@ public class CheddarPageActions extends BasePage<Object> {
 
 	public void clickFooterLogo() {
 		waitForElementToVisible(cheddarPageLocators.footerLogo, 2);
-
 		highlightElement(cheddarPageLocators.footerLogo);
 		// cheddarPageLocators.footerLogo.click();
 		cheddarPageLocators.footerLogo1.click();
@@ -90,6 +88,7 @@ public class CheddarPageActions extends BasePage<Object> {
 		return cheddarPageLocators.quoteTxt.getText();
 	}
 
+	@SuppressWarnings("rawtypes")
 	@Override
 	public ExpectedCondition getPageLoadCondition() {
 		return null;
@@ -324,7 +323,9 @@ public class CheddarPageActions extends BasePage<Object> {
 	}
 
 	public void clickDwnFromBtn() {
+		System.out.println("moving to downoad ");
 		Actions actions = new Actions(DriverManager.getDriver());
+		actions.moveToElement(cheddarPageLocators.DwnFrmBtn).build().perform();
 		waitForElementToVisible(cheddarPageLocators.DwnFrmBtn, 2);
 		highlightElement(cheddarPageLocators.DwnFrmBtn);
 		actions.doubleClick(cheddarPageLocators.DwnFrmBtn).perform();

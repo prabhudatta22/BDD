@@ -4,7 +4,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.testng.Assert;
 
 import pages.locators.*;
 import utils.BasePage;
@@ -55,6 +54,7 @@ public class AllCompsPageActions extends BasePage<Object> {
 	}
 
 	
+	@SuppressWarnings("rawtypes")
 	@Override
 	public ExpectedCondition getPageLoadCondition() {
 		return null;

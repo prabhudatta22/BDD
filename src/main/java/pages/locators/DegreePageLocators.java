@@ -107,5 +107,9 @@ public class DegreePageLocators {
 	@FindBy(xpath = "//span[@id='rfi-form-modal-close']")
 	public WebElement closeBtn;
 	
+	@FindBy(xpath = "//button[@data-target='#navbarNavDropdown']")
+	public WebElement hamburgerMenu;
 	
+	@FindBy(xpath = "//*[@id='navbarNavDropdown']/ul/li[4]/a")
+	public WebElement learnmoreBtn;
 }

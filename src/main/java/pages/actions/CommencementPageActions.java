@@ -90,6 +90,7 @@ public class CommencementPageActions extends BasePage<Object> {
 		return commencementPageLocators.quoteTxt.getText();
 	}
 
+	@SuppressWarnings("rawtypes")
 	@Override
 	public ExpectedCondition getPageLoadCondition() {
 		return null;

@@ -124,6 +124,9 @@ public class VCMegaMenuLocators {
     @FindBy(xpath = "//*[@id='footerInfo']")
     public WebElement culpFooter;
 
+    @FindBy(xpath = "//*[@class='row text-delta-medium text-capitalize font-lato-regular px-0 px-lg-2 flex-row-reverse']")
+    public WebElement culpAccessFooter;
+
     @FindBy(xpath = "//*[@class='footer-links pl-0 mb-0']")
     public WebElement culpFooterModule;
 

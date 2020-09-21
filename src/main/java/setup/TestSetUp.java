@@ -16,10 +16,8 @@ import java.io.IOException;
 import java.lang.reflect.Method;
 import java.net.MalformedURLException;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
-
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -32,11 +30,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
-
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import com.browserstack.local.Local;
-
 import utils.Constants;
 import utils.DriverFactory;
 import utils.DriverManager;
@@ -53,7 +48,8 @@ public class TestSetUp {
 	// public static Logger appLogs = Logger.getLogger(TestSetUp.class.getName());
 	public static boolean isInitialized = false;
 	public static String deviceCheck = "false";
-	private Local browserstackLocal;
+
+	@SuppressWarnings("unused")
 	private Map<String, String> options;
 	public static final ExcelReader excel = new ExcelReader(
 			System.getProperty(Constants.ROOT_DIR) + "\\src\\test\\resources\\testData\\simple.xlsx");
@@ -61,25 +57,19 @@ public class TestSetUp {
 			System.getProperty(Constants.ROOT_DIR) + "\\src\\test\\resources\\testdata\\AnalyticsData.xlsx");
 	public static String geoscript = "if(navigator.geolocation) {\n"
 			+ "    status.textContent = 'Geolocation is not supported by your browser';\n" + "  } else {\n"
-			+ "    status.textContent = 'Locatingâ€¦';\n"
+			+ "    status.textContent = 'Locating…';\n"
 			+ "    navigator.geolocation.getCurrentPosition(success, error);\n" + "  }";
 
 	@BeforeSuite
 	public synchronized void beforeSuite() throws IOException {
-		browserstackLocal = new Local();
-		options = new HashMap<String, String>();
-		options.put("key", Constants.BROWSERSTACK_ACCESS_KEY);
+
 		initialize();
 	}
 
 	@BeforeTest
 	public void beforeTest() {
 		/* Before Test code comes here. */
-		try {
-			browserstackLocal.start(options);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+
 	}
 
 	/**
@@ -149,24 +139,22 @@ public class TestSetUp {
 	}
 
 	public void highlightElement(WebElement element) {
+
+	 JavascriptExecutor js = (JavascriptExecutor) DriverManager.driver.get(); 
+	 js. executeScript("arguments[0].setAttribute('style', 'background: orange; border: 4px solid green;');" , element); 
+
+	}
+
+	public void highlightElement(String Xpath) {
+
 		/*
-		 * 
+		 * WebElement element =
+		 * DriverManager.driver.get().findElement(org.openqa.selenium.By.xpath(Xpath));
 		 * for (int i = 0; i < 6; i++) { JavascriptExecutor js = (JavascriptExecutor)
 		 * DriverManager.driver.get(); js.
 		 * executeScript("arguments[0].setAttribute('style', 'background: orange; border: 4px solid red;');"
 		 * , element); }
-		 * 
-		 */}
-
-	public void highlightElement(String Xpath) {
-
-		WebElement element = DriverManager.driver.get().findElement(org.openqa.selenium.By.xpath(Xpath));
-		for (int i = 0; i < 6; i++) {
-			JavascriptExecutor js = (JavascriptExecutor) DriverManager.driver.get();
-			js.executeScript("arguments[0].setAttribute('style', 'background: orange; border: 4px solid red;');",
-					element);
-		}
-
+		 */
 	}
 
 	public void highlightElements(String Css) {
@@ -216,16 +204,19 @@ public class TestSetUp {
 
 	public void navigateToURL(String url) {
 		DriverManager.getDriver().get(url);
+		closeAlert();
+	}
+
+	public void closeAlert() {
 		try {
-			Thread.sleep(30000);
-			DriverManager.getDriver().switchTo().alert().accept();
+			Thread.sleep(5000);
 			System.out.println("Alert present");
 			JavascriptExecutor js = (JavascriptExecutor) DriverManager.getDriver();
 			js.executeScript(geoscript);
+			DriverManager.getDriver().switchTo().alert().accept();
 			System.out.println("Alert Disabled");
 		} catch (InterruptedException e) {
 			System.out.println("Alert not present");
-			e.printStackTrace();
 		}
 	}
 

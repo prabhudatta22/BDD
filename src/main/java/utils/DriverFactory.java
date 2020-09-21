@@ -33,8 +33,8 @@ import setup.TestSetUp;
 
 public class DriverFactory {
 	private static WebDriver driver;
-	private static String portNo = "5555";
-	private static String url = "http://localhost:4444/wd/hub";
+//	private static String portNo = "5555";
+//	private static String url = "http://localhost:4444/wd/hub";
 
 	private DriverFactory() {
 	}
@@ -208,7 +208,12 @@ public class DriverFactory {
 
 			}
 
-			driver = new RemoteWebDriver(new URL(Constants.BROWSERSTACK_URL), caps);
+			String BROWSERSTACK_URL = "https://" + TestSetUp.configProperty.getProperty("BROWSERSTACK_USERNAME") + ":"
+					+ TestSetUp.configProperty.getProperty("BROWSERSTACK_ACCESS_KEY")
+					+ "@hub-cloud.browserstack.com/wd/hub";
+			System.out.println("browserstack url >> "+BROWSERSTACK_URL);
+
+			driver = new RemoteWebDriver(new URL(BROWSERSTACK_URL), caps);
 			System.out.println("Browserstack driver >>> " + driver);
 			DriverManager.setDriver(driver);
 			if (TestSetUp.configProperty.getProperty(Constants.EXECUTION_ENV).contains("Windows")) {

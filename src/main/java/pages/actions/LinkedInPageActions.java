@@ -51,6 +51,7 @@ public class LinkedInPageActions extends BasePage<Object> {
 
 	}
 
+	@SuppressWarnings("rawtypes")
 	@Override
 	public ExpectedCondition getPageLoadCondition() {
 		return null;

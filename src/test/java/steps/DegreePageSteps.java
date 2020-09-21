@@ -1,6 +1,7 @@
 package steps;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 
 import cucumber.api.java.en.Given;
@@ -31,10 +32,25 @@ public class DegreePageSteps extends TestSetUp {
 	Thread.sleep(3000);
 
     }
+    
+    @When("^User Click on LEARN MORE link in Degree Page Header$")
+    public void i_Click_on_Learn_More_link_in_Degree_page() throws Throwable {
+		System.out.println("clicking learn more link");
+		degreePageLocators.learnmoreBtn.click();
+		Thread.sleep(7000);
+
+    }
 
     @When("^User Click on Degree Page Header Logo$")
     public void i_click_on_degree_page_header_logo() throws Throwable {
 	degreePageActions.clickLogo();
+    }
+    
+
+    @When("^User click on Hambergur menu$")
+    public void i_click_on_hamburger_menu() throws Throwable {
+	degreePageActions.clickhamburgerMenu();
+	Thread.sleep(7000);
     }
 
     @When("^User Click on Degree Page Footer Logo$")

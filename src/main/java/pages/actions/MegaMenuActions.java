@@ -24,7 +24,8 @@ public class MegaMenuActions extends BasePage<Object> {
 	action.moveToElement(ele).perform();
     }
 
-    @Override
+    @SuppressWarnings("rawtypes")
+	@Override
     public ExpectedCondition getPageLoadCondition() {
 
 	return null;

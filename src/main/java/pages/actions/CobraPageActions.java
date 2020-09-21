@@ -107,7 +107,8 @@ public class CobraPageActions extends BasePage<Object> {
 	highlightElement(CobraPageLocators.accredationImg);
     }
 
-    @Override
+    @SuppressWarnings("rawtypes")
+	@Override
     public ExpectedCondition getPageLoadCondition() {
 	return null;
     }
